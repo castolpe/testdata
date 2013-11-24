@@ -1,0 +1,93 @@
+<codebook>
+  <dataDscr>
+    <var ID="HHNR" intrvl="numeric" files="hpfad">
+      <labl>Ursprungshaushaltsnummer</labl>
+      <sumStat type="Min.">1</sumStat>
+      <sumStat type="1st Qu.">3.75</sumStat>
+      <sumStat type="Median">6.5</sumStat>
+      <sumStat type="Mean">6.5</sumStat>
+      <sumStat type="3rd Qu.">9.25</sumStat>
+      <sumStat type="Max.">12</sumStat>
+      <sumStat type="valid">12</sumStat>
+      <sumStat type="invalid">0</sumStat>
+    </var>
+    <var ID="HHNRAKT" intrvl="numeric" files="hpfad">
+      <labl>Haushaltsnummer</labl>
+      <sumStat type="Min.">1</sumStat>
+      <sumStat type="1st Qu.">3.75</sumStat>
+      <sumStat type="Median">6.5</sumStat>
+      <sumStat type="Mean">6.5</sumStat>
+      <sumStat type="3rd Qu.">9.25</sumStat>
+      <sumStat type="Max.">12</sumStat>
+      <sumStat type="valid">12</sumStat>
+      <sumStat type="invalid">0</sumStat>
+    </var>
+    <var ID="AHHNR" intrvl="numeric" files="hpfad">
+      <labl>Haushaltsnummer 2001</labl>
+      <sumStat type="Min.">1</sumStat>
+      <sumStat type="1st Qu.">3.75</sumStat>
+      <sumStat type="Median">6.5</sumStat>
+      <sumStat type="Mean">6.5</sumStat>
+      <sumStat type="3rd Qu.">9.25</sumStat>
+      <sumStat type="Max.">12</sumStat>
+      <sumStat type="valid">12</sumStat>
+      <sumStat type="invalid">0</sumStat>
+    </var>
+    <var ID="AHNETTO" intrvl="numeric" files="hpfad">
+      <labl>Befragungsstatus 2001</labl>
+      <sumStat type="Min.">0</sumStat>
+      <sumStat type="1st Qu.">1</sumStat>
+      <sumStat type="Median">1</sumStat>
+      <sumStat type="Mean">0.9167</sumStat>
+      <sumStat type="3rd Qu.">1</sumStat>
+      <sumStat type="Max.">1</sumStat>
+      <sumStat type="valid">12</sumStat>
+      <sumStat type="invalid">0</sumStat>
+    </var>
+    <var ID="BHHNR" intrvl="numeric" files="hpfad">
+      <labl>Haushaltsnummer 2002</labl>
+      <sumStat type="Min.">1</sumStat>
+      <sumStat type="1st Qu.">3.75</sumStat>
+      <sumStat type="Median">6.5</sumStat>
+      <sumStat type="Mean">6.5</sumStat>
+      <sumStat type="3rd Qu.">9.25</sumStat>
+      <sumStat type="Max.">12</sumStat>
+      <sumStat type="valid">12</sumStat>
+      <sumStat type="invalid">0</sumStat>
+    </var>
+    <var ID="BHNETTO" intrvl="numeric" files="hpfad">
+      <labl>Befragungsstatus 2002</labl>
+      <sumStat type="Min.">0</sumStat>
+      <sumStat type="1st Qu.">1</sumStat>
+      <sumStat type="Median">1</sumStat>
+      <sumStat type="Mean">0.9167</sumStat>
+      <sumStat type="3rd Qu.">1</sumStat>
+      <sumStat type="Max.">1</sumStat>
+      <sumStat type="valid">12</sumStat>
+      <sumStat type="invalid">0</sumStat>
+    </var>
+    <var ID="CHHNR" intrvl="numeric" files="hpfad">
+      <labl>Haushaltsnummer 2003</labl>
+      <sumStat type="Min.">1</sumStat>
+      <sumStat type="1st Qu.">3.75</sumStat>
+      <sumStat type="Median">6.5</sumStat>
+      <sumStat type="Mean">22.25</sumStat>
+      <sumStat type="3rd Qu.">9.25</sumStat>
+      <sumStat type="Max.">201</sumStat>
+      <sumStat type="valid">12</sumStat>
+      <sumStat type="invalid">0</sumStat>
+    </var>
+    <var ID="CHNETTO" intrvl="numeric" files="hpfad">
+      <labl>Befragungsstatus 2003</labl>
+      <sumStat type="Min.">0</sumStat>
+      <sumStat type="1st Qu.">1</sumStat>
+      <sumStat type="Median">1</sumStat>
+      <sumStat type="Mean">0.9167</sumStat>
+      <sumStat type="3rd Qu.">1</sumStat>
+      <sumStat type="Max.">1</sumStat>
+      <sumStat type="valid">12</sumStat>
+      <sumStat type="invalid">0</sumStat>
+    </var>
+  </dataDscr>
+  <fileDscr ID="hpfad"/>
+</codebook>
