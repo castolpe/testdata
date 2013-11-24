@@ -6,7 +6,7 @@
       <sumStat type="invalid">0</sumStat>
       <catgry missing="FALSE">
         <catValu>1</catValu>
-        <labl>Männlich</labl>
+        <labl>MÃ¤nnlich</labl>
         <catStat type="freq">11</catStat>
       </catgry>
       <catgry missing="FALSE">
@@ -27,7 +27,7 @@
       <sumStat type="invalid">0</sumStat>
     </var>
     <var ID="bp03" intrvl="string" files="bp">
-      <labl>Staatsangehörigkeit</labl>
+      <labl>StaatsangehÃ¶rigkeit</labl>
       <sumStat type="valid">21</sumStat>
       <sumStat type="invalid">0</sumStat>
     </var>
@@ -62,7 +62,7 @@
       </catgry>
     </var>
     <var ID="bp05" intrvl="labeled_numeric" files="bp">
-      <labl>familiäre Veränderungen, habe geheiratet</labl>
+      <labl>familiÃ¤re VerÃ¤nderungen, habe geheiratet</labl>
       <sumStat type="valid">19</sumStat>
       <sumStat type="invalid">2</sumStat>
       <catgry missing="FALSE">
@@ -77,7 +77,7 @@
       </catgry>
     </var>
     <var ID="bp06" intrvl="labeled_numeric" files="bp">
-      <labl>familiäre Veränderungen, bin mit Partner/Partnerin zusammengezogen</labl>
+      <labl>familiÃ¤re VerÃ¤nderungen, bin mit Partner/Partnerin zusammengezogen</labl>
       <sumStat type="valid">20</sumStat>
       <sumStat type="invalid">1</sumStat>
       <catgry missing="FALSE">
@@ -92,7 +92,7 @@
       </catgry>
     </var>
     <var ID="bp07" intrvl="labeled_numeric" files="bp">
-      <labl>familiäre Veränderungen, Kind wurde geboren</labl>
+      <labl>familiÃ¤re VerÃ¤nderungen, Kind wurde geboren</labl>
       <sumStat type="valid">20</sumStat>
       <sumStat type="invalid">1</sumStat>
       <catgry missing="FALSE">
@@ -107,7 +107,7 @@
       </catgry>
     </var>
     <var ID="bp08" intrvl="labeled_numeric" files="bp">
-      <labl>familiäre Veränderungen, Kind kam in den Haushalt</labl>
+      <labl>familiÃ¤re VerÃ¤nderungen, Kind kam in den Haushalt</labl>
       <sumStat type="valid">20</sumStat>
       <sumStat type="invalid">1</sumStat>
       <catgry missing="FALSE">
@@ -122,7 +122,7 @@
       </catgry>
     </var>
     <var ID="bp09" intrvl="labeled_numeric" files="bp">
-      <labl>familiäre Veränderungen, Sohn/Tochter hat den Haushalt verlassen</labl>
+      <labl>familiÃ¤re VerÃ¤nderungen, Sohn/Tochter hat den Haushalt verlassen</labl>
       <sumStat type="valid">20</sumStat>
       <sumStat type="invalid">1</sumStat>
       <catgry missing="FALSE">
@@ -137,7 +137,7 @@
       </catgry>
     </var>
     <var ID="bp10" intrvl="labeled_numeric" files="bp">
-      <labl>familiäre Veränderungen, habe mich von Ehepartner/Lebenspartner getrennt</labl>
+      <labl>familiÃ¤re VerÃ¤nderungen, habe mich von Ehepartner/Lebenspartner getrennt</labl>
       <sumStat type="valid">20</sumStat>
       <sumStat type="invalid">1</sumStat>
       <catgry missing="FALSE">
@@ -152,7 +152,7 @@
       </catgry>
     </var>
     <var ID="bp11" intrvl="labeled_numeric" files="bp">
-      <labl>familiäre Veränderungen, wurde geschieden</labl>
+      <labl>familiÃ¤re VerÃ¤nderungen, wurde geschieden</labl>
       <sumStat type="valid">20</sumStat>
       <sumStat type="invalid">1</sumStat>
       <catgry missing="FALSE">
@@ -167,7 +167,7 @@
       </catgry>
     </var>
     <var ID="bp12" intrvl="labeled_numeric" files="bp">
-      <labl>familiäre Veränderungen, Ehepartner/Lebenspartner verstorben</labl>
+      <labl>familiÃ¤re VerÃ¤nderungen, Ehepartner/Lebenspartner verstorben</labl>
       <sumStat type="valid">20</sumStat>
       <sumStat type="invalid">1</sumStat>
       <catgry missing="FALSE">
@@ -182,7 +182,7 @@
       </catgry>
     </var>
     <var ID="bp13" intrvl="labeled_numeric" files="bp">
-      <labl>familiäre Veränderungen, Vater gestorben</labl>
+      <labl>familiÃ¤re VerÃ¤nderungen, Vater gestorben</labl>
       <sumStat type="valid">20</sumStat>
       <sumStat type="invalid">1</sumStat>
       <catgry missing="FALSE">
@@ -197,7 +197,7 @@
       </catgry>
     </var>
     <var ID="bp14" intrvl="labeled_numeric" files="bp">
-      <labl>familiäre Veränderungen, Mutter ist verstorben</labl>
+      <labl>familiÃ¤re VerÃ¤nderungen, Mutter ist verstorben</labl>
       <sumStat type="valid">20</sumStat>
       <sumStat type="invalid">1</sumStat>
       <catgry missing="FALSE">
@@ -212,7 +212,7 @@
       </catgry>
     </var>
     <var ID="bp15" intrvl="labeled_numeric" files="bp">
-      <labl>familiäre Veränderungen, Kind ist verstorben</labl>
+      <labl>familiÃ¤re VerÃ¤nderungen, Kind ist verstorben</labl>
       <sumStat type="valid">20</sumStat>
       <sumStat type="invalid">1</sumStat>
       <catgry missing="FALSE">
@@ -227,7 +227,7 @@
       </catgry>
     </var>
     <var ID="bp16" intrvl="labeled_numeric" files="bp">
-      <labl>familiäre Veränderungen, andere Person, die im Haushalt lebte, ist verstorben</labl>
+      <labl>familiÃ¤re VerÃ¤nderungen, andere Person, die im Haushalt lebte, ist verstorben</labl>
       <sumStat type="valid">20</sumStat>
       <sumStat type="invalid">1</sumStat>
       <catgry missing="FALSE">
@@ -242,7 +242,7 @@
       </catgry>
     </var>
     <var ID="bp17" intrvl="labeled_numeric" files="bp">
-      <labl>familiäre Veränderungen, sonstige Veränderung</labl>
+      <labl>familiÃ¤re VerÃ¤nderungen, sonstige VerÃ¤nderung</labl>
       <sumStat type="valid">20</sumStat>
       <sumStat type="invalid">1</sumStat>
       <catgry missing="FALSE">
@@ -437,7 +437,7 @@
       </catgry>
     </var>
     <var ID="bp21" intrvl="labeled_numeric" files="bp">
-      <labl>Zufriedenheit (falls Sie erwerbstätig sind) mit Ihrer Arbeit?</labl>
+      <labl>Zufriedenheit (falls Sie erwerbstÃ¤tig sind) mit Ihrer Arbeit?</labl>
       <sumStat type="valid">14</sumStat>
       <sumStat type="invalid">7</sumStat>
       <catgry missing="FALSE">
@@ -497,7 +497,7 @@
       </catgry>
     </var>
     <var ID="bp22" intrvl="labeled_numeric" files="bp">
-      <labl>Zufriedenheit (falls Sie im Haushalt tätig sind) mit Ihrer Tätigkeit im Haushalt</labl>
+      <labl>Zufriedenheit (falls Sie im Haushalt tÃ¤tig sind) mit Ihrer TÃ¤tigkeit im Haushalt</labl>
       <sumStat type="valid">17</sumStat>
       <sumStat type="invalid">4</sumStat>
       <catgry missing="FALSE">
@@ -617,7 +617,7 @@
       </catgry>
     </var>
     <var ID="bp24" intrvl="labeled_numeric" files="bp">
-      <labl>Zufriedenheit mit Ihrem persönlichen Einkommen?</labl>
+      <labl>Zufriedenheit mit Ihrem persÃ¶nlichen Einkommen?</labl>
       <sumStat type="valid">16</sumStat>
       <sumStat type="invalid">5</sumStat>
       <catgry missing="FALSE">
@@ -857,7 +857,7 @@
       </catgry>
     </var>
     <var ID="bp28" intrvl="labeled_numeric" files="bp">
-      <labl>Zufriedenheit (falls Sie Kinder im Vorschulalter haben) mit den vorhandenen Mögl</labl>
+      <labl>Zufriedenheit (falls Sie Kinder im Vorschulalter haben) mit den vorhandenen MÃ¶gl</labl>
       <sumStat type="valid">2</sumStat>
       <sumStat type="invalid">19</sumStat>
       <catgry missing="FALSE">
@@ -977,7 +977,7 @@
       </catgry>
     </var>
     <var ID="bp30" intrvl="string" files="bp">
-      <labl>berufliche Tätigkeit/genau</labl>
+      <labl>berufliche TÃ¤tigkeit/genau</labl>
       <sumStat type="valid">21</sumStat>
       <sumStat type="invalid">0</sumStat>
     </var>
@@ -994,7 +994,7 @@
       <sumStat type="invalid">5</sumStat>
     </var>
     <var ID="bp32" intrvl="numeric" files="bp">
-      <labl>Einkommen/selbstständige Tätigkeit Betrag</labl>
+      <labl>Einkommen/selbststÃ¤ndige TÃ¤tigkeit Betrag</labl>
       <sumStat type="Min.">4</sumStat>
       <sumStat type="1st Qu.">2352</sumStat>
       <sumStat type="Median">4700</sumStat>
@@ -1026,7 +1026,7 @@
       </catgry>
       <catgry missing="FALSE">
         <catValu>4</catValu>
-        <labl>Überhaupt nicht</labl>
+        <labl>Ãœberhaupt nicht</labl>
         <catStat type="freq">4</catStat>
       </catgry>
     </var>
@@ -1060,7 +1060,7 @@
       </catgry>
       <catgry missing="FALSE">
         <catValu>5</catValu>
-        <labl>Bündnis 90 / Die Grünen</labl>
+        <labl>BÃ¼ndnis 90 / Die GrÃ¼nen</labl>
         <catStat type="freq">3</catStat>
       </catgry>
       <catgry missing="FALSE">
@@ -1080,7 +1080,7 @@
       </catgry>
     </var>
     <var ID="bp35" intrvl="numeric" files="bp">
-      <labl>Körpergröße</labl>
+      <labl>KÃ¶rpergrÃ¶ÃŸe</labl>
       <sumStat type="Min.">45</sumStat>
       <sumStat type="1st Qu.">163.2</sumStat>
       <sumStat type="Median">171.5</sumStat>
@@ -1092,7 +1092,7 @@
       <sumStat type="invalid">1</sumStat>
     </var>
     <var ID="bp36" intrvl="numeric" files="bp">
-      <labl>Körpergewict</labl>
+      <labl>KÃ¶rpergewict</labl>
       <sumStat type="Min.">49</sumStat>
       <sumStat type="1st Qu.">60</sumStat>
       <sumStat type="Median">67</sumStat>

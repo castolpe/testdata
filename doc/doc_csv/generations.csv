@@ -1,13 +1,13 @@
-output_study	output_dataset	output_version	output_variable	input_study	input_dataset	input_version	input_variable
-Soep-test	apgen		BMI	Soep-test	ap		ap35
-Soep-test				Soep-test	ap		ap36
-Soep-test	bpgen		BMI	Soep-test	bp		bp35
-Soep-test				Soep-test	bp		bp36
-Soep-test	cpgen		BMI	Soep-test	cp		cp35
-Soep-test				Soep-test	cp		cp36
-Soep-test	ahgen		averageinc	Soep-test	ah		ah10
-Soep-test	bhgen		averageinc	Soep-test	bh		bh10
-Soep-test	chgen		averageinc	Soep-test	ch		ch10
-Soep-test	ahgen		hhmitglieder	Soep-test	al		al14
-Soep-test	bhgen		hhmitglieder	Soep-test	bl		bl14
-Soep-test	chgen		hhmitglieder	Soep-test	cl		cl14
+output_study,output_dataset,output_version,output_variable,input_study,input_dataset,input_version,input_variable
+soep-test,apgen,v3,BMI,soep-test,ap,v3,ap35
+soep-test,apgen,v3,BMI,soep-test,ap,v3,ap36
+soep-test,bpgen,v3,BMI,soep-test,bp,v3,bp35
+soep-test,bpgen,v3,BMI,soep-test,bp,v3,bp36
+soep-test,cpgen,v3,BMI,soep-test,cp,v3,cp35
+soep-test,cpgen,v3,BMI,soep-test,cp,v3,cp36
+soep-test,ahgen,v3,averageinc,soep-test,ah,v3,ah10
+soep-test,bhgen,v3,averageinc,soep-test,bh,v3,bh10
+soep-test,chgen,v3,averageinc,soep-test,ch,v3,ch10
+soep-test,ahgen,v3,hhmitglieder,soep-test,al,v3,al14
+soep-test,bhgen,v3,hhmitglieder,soep-test,bl,v3,bl14
+soep-test,chgen,v3,hhmitglieder,soep-test,cl,v3,cl14

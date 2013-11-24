@@ -20,7 +20,7 @@
       </catgry>
     </var>
     <var ID="ch02" intrvl="numeric" files="ch">
-      <labl>Dummy für Anzahl Kinder</labl>
+      <labl>Dummy fÃ¼r Anzahl Kinder</labl>
       <sumStat type="Min.">0</sumStat>
       <sumStat type="1st Qu.">0</sumStat>
       <sumStat type="Median">1</sumStat>
@@ -104,12 +104,12 @@
       <sumStat type="invalid">1</sumStat>
       <catgry missing="FALSE">
         <catValu>1</catValu>
-        <labl>Ein reines Wohngebiet mit überwiegend Altbauten</labl>
+        <labl>Ein reines Wohngebiet mit Ã¼berwiegend Altbauten</labl>
         <catStat type="freq">0</catStat>
       </catgry>
       <catgry missing="FALSE">
         <catValu>2</catValu>
-        <labl>Ein reines Wohngebiet mit überwiegend Neubauten</labl>
+        <labl>Ein reines Wohngebiet mit Ã¼berwiegend Neubauten</labl>
         <catStat type="freq">3</catStat>
       </catgry>
       <catgry missing="TRUE">
@@ -118,12 +118,12 @@
       </catgry>
       <catgry missing="FALSE">
         <catValu>3</catValu>
-        <labl>Ein Mischgebiet mit Wohnungen und Geschäften bzw. Gewerbebetrieben</labl>
+        <labl>Ein Mischgebiet mit Wohnungen und GeschÃ¤ften bzw. Gewerbebetrieben</labl>
         <catStat type="freq">1</catStat>
       </catgry>
       <catgry missing="FALSE">
         <catValu>4</catValu>
-        <labl>Ein Geschäftszentrum (Läden, Banken, Verwaltungen) mit wenigen Wohnungen</labl>
+        <labl>Ein GeschÃ¤ftszentrum (LÃ¤den, Banken, Verwaltungen) mit wenigen Wohnungen</labl>
         <catStat type="freq">1</catStat>
       </catgry>
       <catgry missing="FALSE">
@@ -149,7 +149,7 @@
       <sumStat type="invalid">2</sumStat>
     </var>
     <var ID="ch10" intrvl="numeric" files="ch">
-      <labl>Alle Einkünfte im Monat</labl>
+      <labl>Alle EinkÃ¼nfte im Monat</labl>
       <sumStat type="Min.">850</sumStat>
       <sumStat type="1st Qu.">2245</sumStat>
       <sumStat type="Median">3221</sumStat>
