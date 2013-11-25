@@ -1,17 +1,17 @@
 <codebook>
   <dataDscr>
     <var ID="ah01" intrvl="labeled_numeric" files="ah">
-      <labl>Kinder</labl>
+      <labl>Children</labl>
       <sumStat type="valid">11</sumStat>
       <sumStat type="invalid">1</sumStat>
       <catgry missing="FALSE">
         <catValu>1</catValu>
-        <labl>Ja</labl>
+        <labl>Yes</labl>
         <catStat type="freq">6</catStat>
       </catgry>
       <catgry missing="FALSE">
         <catValu>2</catValu>
-        <labl>Nein</labl>
+        <labl>No</labl>
         <catStat type="freq">5</catStat>
       </catgry>
       <catgry missing="TRUE">
@@ -20,7 +20,7 @@
       </catgry>
     </var>
     <var ID="ah02" intrvl="numeric" files="ah">
-      <labl>Dummy für Anzahl Kinder</labl>
+      <labl>Dummy for Number of Children</labl>
       <sumStat type="Min.">0</sumStat>
       <sumStat type="1st Qu.">0</sumStat>
       <sumStat type="Median">1</sumStat>
@@ -32,7 +32,7 @@
       <sumStat type="invalid">1</sumStat>
     </var>
     <var ID="ah03" intrvl="numeric" files="ah">
-      <labl>Geburtsjahr Kind A</labl>
+      <labl>Year of Birth Child A</labl>
       <sumStat type="Min.">1987</sumStat>
       <sumStat type="1st Qu.">1988</sumStat>
       <sumStat type="Median">1990</sumStat>
@@ -44,7 +44,7 @@
       <sumStat type="invalid">6</sumStat>
     </var>
     <var ID="ah04" intrvl="numeric" files="ah">
-      <labl>Geburtsjahr Kind B</labl>
+      <labl>Year of Birth Child B</labl>
       <sumStat type="Min.">1989</sumStat>
       <sumStat type="1st Qu.">1990</sumStat>
       <sumStat type="Median">1992</sumStat>
@@ -80,7 +80,7 @@
       <sumStat type="invalid">11</sumStat>
     </var>
     <var ID="ah07" intrvl="labeled_numeric" files="ah">
-      <labl>Wohnungswechsel</labl>
+      <labl>Change of Residence</labl>
       <sumStat type="valid">11</sumStat>
       <sumStat type="invalid">1</sumStat>
       <catgry missing="FALSE">
@@ -99,17 +99,17 @@
       </catgry>
     </var>
     <var ID="ah08" intrvl="labeled_numeric" files="ah">
-      <labl>Wohngegend</labl>
+      <labl>Residential Area</labl>
       <sumStat type="valid">11</sumStat>
       <sumStat type="invalid">1</sumStat>
       <catgry missing="FALSE">
         <catValu>1</catValu>
-        <labl>Ein reines Wohngebiet mit überwiegend Altbauten</labl>
+        <labl> A mere residential area with predominantly old buildings</labl>
         <catStat type="freq">4</catStat>
       </catgry>
       <catgry missing="FALSE">
         <catValu>2</catValu>
-        <labl>Ein reines Wohngebiet mit überwiegend Neubauten</labl>
+        <labl> A mere residential area with predominantly new buildings</labl>
         <catStat type="freq">3</catStat>
       </catgry>
       <catgry missing="TRUE">
@@ -118,22 +118,22 @@
       </catgry>
       <catgry missing="FALSE">
         <catValu>3</catValu>
-        <labl>Ein Mischgebiet mit Wohnungen und Geschäften bzw. Gewerbebetrieben</labl>
+        <labl>Mixed area with appartments and stores/ industrial units</labl>
         <catStat type="freq">2</catStat>
       </catgry>
       <catgry missing="FALSE">
         <catValu>4</catValu>
-        <labl>Ein Geschäftszentrum (Läden, Banken, Verwaltungen) mit wenigen Wohnungen</labl>
+        <labl>Commercial area (stores, banks, administration) with few appartments</labl>
         <catStat type="freq">1</catStat>
       </catgry>
       <catgry missing="FALSE">
         <catValu>5</catValu>
-        <labl>Ein Gewerbe- bzw. Industriegebiet mit wenigen Wohnungen</labl>
+        <labl> Industrial units area with few appartments</labl>
         <catStat type="freq">1</catStat>
       </catgry>
     </var>
     <var ID="ah09" intrvl="numeric" files="ah">
-      <labl>Miete in Euro</labl>
+      <labl>Rent in Euro</labl>
       <sumStat type="Min.">300</sumStat>
       <sumStat type="1st Qu.">522.5</sumStat>
       <sumStat type="Median">850</sumStat>
@@ -145,7 +145,7 @@
       <sumStat type="invalid">2</sumStat>
     </var>
     <var ID="ah10" intrvl="numeric" files="ah">
-      <labl>Alle Einkünfte im Monat</labl>
+      <labl>Total Income per Month</labl>
       <sumStat type="Min.">850</sumStat>
       <sumStat type="1st Qu.">1720</sumStat>
       <sumStat type="Median">3221</sumStat>

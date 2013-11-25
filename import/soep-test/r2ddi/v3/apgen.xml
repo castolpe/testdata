@@ -1,0 +1,29 @@
+<codebook>
+  <dataDscr>
+    <var ID="PERSNR" intrvl="numeric" files="apgen">
+      <labl>Fixed individual number</labl>
+      <sumStat type="Min.">1</sumStat>
+      <sumStat type="1st Qu.">165.5</sumStat>
+      <sumStat type="Median">802</sumStat>
+      <sumStat type="Mean">1824</sumStat>
+      <sumStat type="3rd Qu.">2880</sumStat>
+      <sumStat type="Max.">9201</sumStat>
+      <sumStat type="NA's">1</sumStat>
+      <sumStat type="valid">19</sumStat>
+      <sumStat type="invalid">1</sumStat>
+    </var>
+    <var ID="ap37" intrvl="numeric" files="apgen">
+      <labl>Body Mass Index</labl>
+      <sumStat type="Min.">19.03</sumStat>
+      <sumStat type="1st Qu.">21.21</sumStat>
+      <sumStat type="Median">22.72</sumStat>
+      <sumStat type="Mean">22.93</sumStat>
+      <sumStat type="3rd Qu.">24.41</sumStat>
+      <sumStat type="Max.">27.89</sumStat>
+      <sumStat type="NA's">1</sumStat>
+      <sumStat type="valid">19</sumStat>
+      <sumStat type="invalid">1</sumStat>
+    </var>
+  </dataDscr>
+  <fileDscr ID="apgen"/>
+</codebook>
