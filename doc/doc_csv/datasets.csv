@@ -23,3 +23,11 @@ soep-test,bhgen,2002,h,gen
 soep-test,bpgen,2002,p,gen
 soep-test,chgen,2003,h,gen
 soep-test,cpgen,2003,p,gen
+soep-test,ahbrutto,2001,h,structure
+soep-test,bhbrutto,2002,h,structure
+soep-test,chbrutto,2003,h,structure
+soep-test,apbrutto,2001,p,structure
+soep-test,bpbrutto,2002,p,structure
+soep-test,cpbrutto,2003,p,structure
+soep-test,ppfad,,p,structure
+soep-test,phfad,,h,structure
