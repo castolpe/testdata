@@ -1,0 +1,4 @@
+identifier,label,analysis_unit
+p,Individual ID,p
+h,Household ID,h
+t,Time ID,time

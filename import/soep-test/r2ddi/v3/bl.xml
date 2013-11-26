@@ -1,228 +1,237 @@
 <codebook>
   <dataDscr>
     <var ID="bl01" intrvl="labeled_numeric" files="bl">
-      <labl>Deutschland Geburt</labl>
+      <labl>Germany Nativity</labl>
       <sumStat type="valid">20</sumStat>
       <sumStat type="invalid">0</sumStat>
       <catgry missing="FALSE">
         <catValu>1</catValu>
-        <labl>Ja</labl>
-        <catStat type="freq">13</catStat>
+        <labl>Yes</labl>
+        <catStat type="freq">14</catStat>
       </catgry>
       <catgry missing="FALSE">
         <catValu>2</catValu>
-        <labl>Nein</labl>
-        <catStat type="freq"> 7</catStat>
+        <labl>No</labl>
+        <catStat type="freq"> 6</catStat>
       </catgry>
     </var>
     <var ID="bl02" intrvl="numeric" files="bl">
-      <labl>Zuzug Deutschlandd</labl>
+      <labl>Moving to Germany</labl>
       <sumStat type="Min.">1970</sumStat>
-      <sumStat type="1st Qu.">1977</sumStat>
-      <sumStat type="Median">1981</sumStat>
-      <sumStat type="Mean">1984</sumStat>
-      <sumStat type="3rd Qu.">1990</sumStat>
+      <sumStat type="1st Qu.">1976</sumStat>
+      <sumStat type="Median">1980</sumStat>
+      <sumStat type="Mean">1982</sumStat>
+      <sumStat type="3rd Qu.">1988</sumStat>
       <sumStat type="Max.">2000</sumStat>
-      <sumStat type="NA's">13</sumStat>
-      <sumStat type="valid">7</sumStat>
-      <sumStat type="invalid">13</sumStat>
+      <sumStat type="NA's">14</sumStat>
+      <sumStat type="valid">6</sumStat>
+      <sumStat type="invalid">14</sumStat>
     </var>
     <var ID="bl03" intrvl="labeled_numeric" files="bl">
-      <labl>Zuwanderergruppe</labl>
-      <sumStat type="valid">7</sumStat>
-      <sumStat type="invalid">13</sumStat>
+      <labl>Immigrant Group</labl>
+      <sumStat type="valid">6</sumStat>
+      <sumStat type="invalid">14</sumStat>
       <catgry missing="FALSE">
         <catValu>1</catValu>
-        <labl>Aussiedler, d.h. deutschstämmige Person aus osteuropäischen Staaten</labl>
+        <labl>Emigrant, meaning German speaking people from easteuropean countries</labl>
         <catStat type="freq"> 1</catStat>
       </catgry>
       <catgry missing="FALSE">
         <catValu>2</catValu>
-        <labl>Deutscher, der längere Zeit im Ausland gelebt hat</labl>
+        <labl> German that has been living overseas for some time</labl>
         <catStat type="freq"> 1</catStat>
       </catgry>
       <catgry missing="TRUE">
         <catValu>.</catValu>
-        <catStat type="freq">13</catStat>
+        <catStat type="freq">14</catStat>
       </catgry>
       <catgry missing="FALSE">
         <catValu>3</catValu>
-        <labl>Bürger eines EU-Mitgliedstaates</labl>
+        <labl>Citizen of EU member  state</labl>
         <catStat type="freq"> 2</catStat>
       </catgry>
       <catgry missing="FALSE">
         <catValu>4</catValu>
-        <labl>Asylbewerber oder Flüchtling</labl>
+        <labl>Asylum seeker or refugee</labl>
         <catStat type="freq"> 1</catStat>
       </catgry>
       <catgry missing="FALSE">
         <catValu>5</catValu>
-        <labl>Sonstiger Ausländer</labl>
-        <catStat type="freq"> 2</catStat>
+        <labl>Other foreigner</labl>
+        <catStat type="freq"> 1</catStat>
       </catgry>
     </var>
     <var ID="bl04" intrvl="labeled_numeric" files="bl">
-      <labl>Wohnort vor 1989</labl>
+      <labl>Domicile before 1989</labl>
       <sumStat type="valid">20</sumStat>
       <sumStat type="invalid">0</sumStat>
       <catgry missing="FALSE">
         <catValu>1</catValu>
-        <labl>In der DDR (einschließlich Berlin-Ost)</labl>
-        <catStat type="freq"> 6</catStat>
+        <labl>German Democratic Republic incl. East-Berlin</labl>
+        <catStat type="freq"> 7</catStat>
       </catgry>
       <catgry missing="FALSE">
         <catValu>2</catValu>
-        <labl>In der Bundesrepublik (einschließlich Berlin-West)</labl>
+        <labl>Federal German Republic incl. West-Berlin</labl>
         <catStat type="freq">11</catStat>
       </catgry>
       <catgry missing="FALSE">
         <catValu>3</catValu>
-        <labl>In einem anderen Land</labl>
-        <catStat type="freq"> 3</catStat>
+        <labl>In another country</labl>
+        <catStat type="freq"> 2</catStat>
       </catgry>
       <catgry missing="FALSE">
         <catValu>4</catValu>
-        <labl>Trifft nicht zu, bin 1989 oder später geboren</labl>
+        <labl>Inapplicable, I was born in 1989 or later</labl>
+        <catStat type="freq"> 0</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>5</catValu>
+        <labl>Inapplicable, I was born in 1989 or later</labl>
         <catStat type="freq"> 0</catStat>
       </catgry>
     </var>
     <var ID="bl05" intrvl="labeled_numeric" files="bl">
-      <labl>Geschwister</labl>
+      <labl>Siblings</labl>
       <sumStat type="valid">20</sumStat>
       <sumStat type="invalid">0</sumStat>
       <catgry missing="FALSE">
         <catValu>1</catValu>
-        <labl>Ja</labl>
-        <catStat type="freq">13</catStat>
+        <labl>Yes</labl>
+        <catStat type="freq">12</catStat>
       </catgry>
       <catgry missing="FALSE">
         <catValu>2</catValu>
-        <labl>Nein</labl>
-        <catStat type="freq"> 7</catStat>
+        <labl>No</labl>
+        <catStat type="freq"> 8</catStat>
       </catgry>
     </var>
     <var ID="bl06" intrvl="labeled_numeric" files="bl">
-      <labl>Art Berufsausbildungsabschluss, Lehre (DDR: Facharbeiterabschluss)</labl>
+      <labl>Degree of education,  Apprenticeship (GDR: craftsman degree)</labl>
       <sumStat type="valid">20</sumStat>
       <sumStat type="invalid">0</sumStat>
       <catgry missing="FALSE">
         <catValu>1</catValu>
-        <labl>Ja</labl>
-        <catStat type="freq"> 3</catStat>
+        <labl>Yes</labl>
+        <catStat type="freq"> 4</catStat>
       </catgry>
       <catgry missing="FALSE">
         <catValu>2</catValu>
-        <labl>Nein</labl>
-        <catStat type="freq">17</catStat>
+        <labl>No</labl>
+        <catStat type="freq">16</catStat>
       </catgry>
     </var>
     <var ID="bl07" intrvl="labeled_numeric" files="bl">
-      <labl>Art Berufsausbildungsabschluss, Berufsfachschule, Handelsschule, Schule des Gesu</labl>
+      <labl>Degree of education, Vocational school, business school, health school</labl>
       <sumStat type="valid">20</sumStat>
       <sumStat type="invalid">0</sumStat>
       <catgry missing="FALSE">
         <catValu>1</catValu>
-        <labl>Ja</labl>
+        <labl>Yes</labl>
         <catStat type="freq"> 1</catStat>
       </catgry>
       <catgry missing="FALSE">
         <catValu>2</catValu>
-        <labl>Nein</labl>
+        <labl>No</labl>
         <catStat type="freq">19</catStat>
       </catgry>
     </var>
     <var ID="bl08" intrvl="labeled_numeric" files="bl">
-      <labl>Art Berufsausbildungsabschluss, Fachschule, z.B. Meister-, Technikerabschluss</labl>
+      <labl>Degree of education, Technical school, i.e. technican degree, master degree</labl>
       <sumStat type="valid">20</sumStat>
       <sumStat type="invalid">0</sumStat>
       <catgry missing="FALSE">
         <catValu>1</catValu>
-        <labl>Ja</labl>
-        <catStat type="freq"> 3</catStat>
-      </catgry>
-      <catgry missing="FALSE">
-        <catValu>2</catValu>
-        <labl>Nein</labl>
-        <catStat type="freq">17</catStat>
-      </catgry>
-    </var>
-    <var ID="bl09" intrvl="labeled_numeric" files="bl">
-      <labl>Art Berufsausbildungsabschluss, Beamtenausbildung</labl>
-      <sumStat type="valid">20</sumStat>
-      <sumStat type="invalid">0</sumStat>
-      <catgry missing="FALSE">
-        <catValu>1</catValu>
-        <labl>Ja</labl>
+        <labl>Yes</labl>
         <catStat type="freq"> 2</catStat>
       </catgry>
       <catgry missing="FALSE">
         <catValu>2</catValu>
-        <labl>Nein</labl>
+        <labl>No</labl>
+        <catStat type="freq">18</catStat>
+      </catgry>
+    </var>
+    <var ID="bl09" intrvl="labeled_numeric" files="bl">
+      <labl>Degree of education, Public officer education</labl>
+      <sumStat type="valid">20</sumStat>
+      <sumStat type="invalid">0</sumStat>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>Yes</labl>
+        <catStat type="freq"> 2</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>No</labl>
         <catStat type="freq">18</catStat>
       </catgry>
     </var>
     <var ID="bl10" intrvl="labeled_numeric" files="bl">
-      <labl>Art Berufsausbildungsabschluss, Fachhochschule, Berufsakademie (früher: auch Ing</labl>
+      <labl>Degree of education, University of applied science, university of cooperative ed</labl>
       <sumStat type="valid">20</sumStat>
       <sumStat type="invalid">0</sumStat>
       <catgry missing="FALSE">
         <catValu>1</catValu>
-        <labl>Ja</labl>
+        <labl>Yes</labl>
         <catStat type="freq"> 2</catStat>
       </catgry>
       <catgry missing="FALSE">
         <catValu>2</catValu>
-        <labl>Nein</labl>
+        <labl>No</labl>
         <catStat type="freq">18</catStat>
       </catgry>
     </var>
     <var ID="bl11" intrvl="labeled_numeric" files="bl">
-      <labl>Universitäts-, Hochschulabschluss</labl>
+      <labl>Degree of education, University degree</labl>
       <sumStat type="valid">20</sumStat>
       <sumStat type="invalid">0</sumStat>
       <catgry missing="FALSE">
         <catValu>1</catValu>
-        <labl>Ja</labl>
+        <labl>Yes</labl>
         <catStat type="freq"> 6</catStat>
       </catgry>
       <catgry missing="FALSE">
         <catValu>2</catValu>
-        <labl>Nein</labl>
+        <labl>No</labl>
         <catStat type="freq">14</catStat>
       </catgry>
     </var>
     <var ID="bl12" intrvl="labeled_numeric" files="bl">
-      <labl>Sonstiger Abschluss</labl>
+      <labl>Degree of education, Other degree</labl>
       <sumStat type="valid">20</sumStat>
       <sumStat type="invalid">0</sumStat>
       <catgry missing="FALSE">
         <catValu>1</catValu>
-        <labl>Ja</labl>
+        <labl>Yes</labl>
         <catStat type="freq"> 1</catStat>
       </catgry>
       <catgry missing="FALSE">
         <catValu>2</catValu>
-        <labl>Nein</labl>
+        <labl>No</labl>
         <catStat type="freq">19</catStat>
       </catgry>
     </var>
     <var ID="bl13" intrvl="labeled_numeric" files="bl">
-      <labl>Kinder</labl>
-      <sumStat type="valid">20</sumStat>
-      <sumStat type="invalid">0</sumStat>
+      <labl>Children</labl>
+      <sumStat type="valid">19</sumStat>
+      <sumStat type="invalid">1</sumStat>
       <catgry missing="FALSE">
         <catValu>1</catValu>
-        <labl>Nein, hatte nie Kinder</labl>
-        <catStat type="freq">10</catStat>
+        <labl>No, never had children</labl>
+        <catStat type="freq"> 9</catStat>
       </catgry>
       <catgry missing="FALSE">
         <catValu>2</catValu>
-        <labl>Ja</labl>
+        <labl>Yes</labl>
         <catStat type="freq">10</catStat>
+      </catgry>
+      <catgry missing="TRUE">
+        <catValu>.</catValu>
+        <catStat type="freq"> 1</catStat>
       </catgry>
     </var>
     <var ID="bl14" intrvl="numeric" files="bl">
-      <labl>Anzahl Kinder</labl>
+      <labl>Number of Children</labl>
       <sumStat type="Min.">0</sumStat>
       <sumStat type="1st Qu.">0</sumStat>
       <sumStat type="Median">1</sumStat>
