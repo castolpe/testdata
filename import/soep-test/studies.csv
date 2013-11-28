@@ -1,2 +1,4 @@
 study,label,description
-soep-test,SOEP Test Study,
+soep-test,SOEP Test Study,"This is a test study.
+
+All data are fictious."
