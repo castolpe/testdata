@@ -1,0 +1,5 @@
+conceptual_dataset,label,description
+raw,Raw dataset,Dataset as delivered by the fieldwork organisation
+basic,Basic dataset,Published version of a raw dataset
+gen,Generated dataset,Dataset with generated variables
+structure,Structural datasets,Datasets with structure information about brutto and netto samples and how they develop

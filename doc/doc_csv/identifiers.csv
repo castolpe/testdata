@@ -1,4 +1,4 @@
-identifier,label,analysis_unit
-p,Individual ID,p
-h,Household ID,h
-t,Time ID,time
+identifier,analysis_unit,label,description
+p,p,Individual ID,
+h,h,Household ID,
+t,time,Time ID,
