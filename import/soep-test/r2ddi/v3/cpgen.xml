@@ -11,7 +11,7 @@
       <sumStat type="valid">20</sumStat>
       <sumStat type="invalid">0</sumStat>
     </var>
-    <var ID="cp37" intrvl="numeric" files="cpgen">
+    <var ID="bmi" intrvl="numeric" files="cpgen">
       <labl>Body Mass Index</labl>
       <sumStat type="Min.">19.38</sumStat>
       <sumStat type="1st Qu.">20.6</sumStat>

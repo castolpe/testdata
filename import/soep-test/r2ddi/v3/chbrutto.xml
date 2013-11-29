@@ -45,7 +45,7 @@
       <sumStat type="invalid">0</sumStat>
     </var>
     <var ID="CHHGR" intrvl="numeric" files="chbrutto">
-      <labl>Haushaltsgröße</labl>
+      <labl>HaushaltsgrÃ¶Ãe</labl>
       <sumStat type="Min.">1</sumStat>
       <sumStat type="1st Qu.">1</sumStat>
       <sumStat type="Median">2</sumStat>
