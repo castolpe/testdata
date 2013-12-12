@@ -9,6 +9,7 @@ end
 desc "run r2ddi"
 task :r2ddi do
   system "cd r2ddi ; Rscript run.R"
+  system "cp -r r2ddi/de/* non-utf8/"
   system "recode l1...utf8 r2ddi/de/*"
   system "recode l1...utf8 r2ddi/en/*"
   system "cp -r r2ddi/en/* import/soep-test/r2ddi/v3/"

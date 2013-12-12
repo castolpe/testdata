@@ -1,0 +1,16 @@
+<codebook>
+  <dataDscr>
+    <var ID="PERSNR" intrvl="numeric" files="clgen">
+      <labl>Fixed individual number</labl>
+      <sumStat type="Min.">1</sumStat>
+      <sumStat type="1st Qu.">121.2</sumStat>
+      <sumStat type="Median">689.5</sumStat>
+      <sumStat type="Mean">1890</sumStat>
+      <sumStat type="3rd Qu.">2912</sumStat>
+      <sumStat type="Max.">9201</sumStat>
+      <sumStat type="valid">20</sumStat>
+      <sumStat type="invalid">0</sumStat>
+    </var>
+  </dataDscr>
+  <fileDscr ID="clgen"/>
+</codebook>
