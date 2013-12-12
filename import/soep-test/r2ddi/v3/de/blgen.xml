@@ -1,0 +1,16 @@
+<codebook>
+  <dataDscr>
+    <var ID="PERSNR" intrvl="numeric" files="blgen">
+      <labl>Unveraenderliche Personennummer</labl>
+      <sumStat type="Min.">1</sumStat>
+      <sumStat type="1st Qu.">132</sumStat>
+      <sumStat type="Median">802</sumStat>
+      <sumStat type="Mean">1935</sumStat>
+      <sumStat type="3rd Qu.">2910</sumStat>
+      <sumStat type="Max.">9201</sumStat>
+      <sumStat type="valid">21</sumStat>
+      <sumStat type="invalid">0</sumStat>
+    </var>
+  </dataDscr>
+  <fileDscr ID="blgen"/>
+</codebook>

@@ -1,0 +1,28 @@
+<codebook>
+  <dataDscr>
+    <var ID="PERSNR" intrvl="numeric" files="bpgen">
+      <labl>Unveraenderliche Personennummer</labl>
+      <sumStat type="Min.">1</sumStat>
+      <sumStat type="1st Qu.">132</sumStat>
+      <sumStat type="Median">802</sumStat>
+      <sumStat type="Mean">1935</sumStat>
+      <sumStat type="3rd Qu.">2910</sumStat>
+      <sumStat type="Max.">9201</sumStat>
+      <sumStat type="valid">21</sumStat>
+      <sumStat type="invalid">0</sumStat>
+    </var>
+    <var ID="BMI" intrvl="numeric" files="bpgen">
+      <labl>Body Mass Index</labl>
+      <sumStat type="Min.">19.38</sumStat>
+      <sumStat type="1st Qu.">20.9</sumStat>
+      <sumStat type="Median">22.52</sumStat>
+      <sumStat type="Mean">22.81</sumStat>
+      <sumStat type="3rd Qu.">24.39</sumStat>
+      <sumStat type="Max.">27.89</sumStat>
+      <sumStat type="NA's">1</sumStat>
+      <sumStat type="valid">20</sumStat>
+      <sumStat type="invalid">1</sumStat>
+    </var>
+  </dataDscr>
+  <fileDscr ID="bpgen"/>
+</codebook>

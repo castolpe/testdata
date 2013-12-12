@@ -1,0 +1,33 @@
+<codebook>
+  <dataDscr>
+    <var ID="CHHNR" intrvl="numeric" files="chgen">
+      <labl>Aktuelle Haushaltsnummer 2003</labl>
+      <sumStat type="Min.">1</sumStat>
+      <sumStat type="1st Qu.">3.75</sumStat>
+      <sumStat type="Median">6.5</sumStat>
+      <sumStat type="Mean">22.25</sumStat>
+      <sumStat type="3rd Qu.">9.25</sumStat>
+      <sumStat type="Max.">201</sumStat>
+      <sumStat type="valid">12</sumStat>
+      <sumStat type="invalid">0</sumStat>
+    </var>
+    <var ID="averageinc" intrvl="string" files="chgen">
+      <labl>Durchschnittsnettohaushaltseinkommen</labl>
+      <sumStat type="valid">12</sumStat>
+      <sumStat type="invalid">0</sumStat>
+    </var>
+    <var ID="hhmitglieder" intrvl="numeric" files="chgen">
+      <labl>Anzahl Haushaltsmitglieder</labl>
+      <sumStat type="Min.">1</sumStat>
+      <sumStat type="1st Qu.">1.5</sumStat>
+      <sumStat type="Median">2</sumStat>
+      <sumStat type="Mean">3</sumStat>
+      <sumStat type="3rd Qu.">5</sumStat>
+      <sumStat type="Max.">6</sumStat>
+      <sumStat type="NA's">1</sumStat>
+      <sumStat type="valid">11</sumStat>
+      <sumStat type="invalid">1</sumStat>
+    </var>
+  </dataDscr>
+  <fileDscr ID="chgen"/>
+</codebook>
