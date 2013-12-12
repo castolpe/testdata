@@ -33,12 +33,12 @@
       <sumStat type="invalid">14</sumStat>
       <catgry missing="FALSE">
         <catValu>1</catValu>
-        <labl>Aussiedler, d.h. deutschst‰mmige Person aus osteurop‰ischen Staaten</labl>
+        <labl>Aussiedler, d.h. deutschst√§mmige Person aus osteurop√§ischen Staaten</labl>
         <catStat type="freq"> 1</catStat>
       </catgry>
       <catgry missing="FALSE">
         <catValu>2</catValu>
-        <labl>Deutscher, der l‰ngere Zeit im Ausland gelebt hat</labl>
+        <labl>Deutscher, der l√§ngere Zeit im Ausland gelebt hat</labl>
         <catStat type="freq"> 1</catStat>
       </catgry>
       <catgry missing="TRUE">
@@ -47,17 +47,17 @@
       </catgry>
       <catgry missing="FALSE">
         <catValu>3</catValu>
-        <labl>B¸rger eines EU-Mitgliedstaates</labl>
+        <labl>B√ºrger eines EU-Mitgliedstaates</labl>
         <catStat type="freq"> 2</catStat>
       </catgry>
       <catgry missing="FALSE">
         <catValu>4</catValu>
-        <labl>Asylbewerber oder Fl¸chtling</labl>
+        <labl>Asylbewerber oder Fl√ºchtling</labl>
         <catStat type="freq"> 1</catStat>
       </catgry>
       <catgry missing="FALSE">
         <catValu>5</catValu>
-        <labl>Sonstiger Ausl‰nder</labl>
+        <labl>Sonstiger Ausl√§nder</labl>
         <catStat type="freq"> 2</catStat>
       </catgry>
     </var>
@@ -67,12 +67,12 @@
       <sumStat type="invalid">0</sumStat>
       <catgry missing="FALSE">
         <catValu>1</catValu>
-        <labl>In der DDR (einschlieﬂlich Berlin-Ost)</labl>
+        <labl>In der DDR (einschlie√ülich Berlin-Ost)</labl>
         <catStat type="freq"> 6</catStat>
       </catgry>
       <catgry missing="FALSE">
         <catValu>2</catValu>
-        <labl>In der Bundesrepublik (einschlieﬂlich Berlin-West)</labl>
+        <labl>In der Bundesrepublik (einschlie√ülich Berlin-West)</labl>
         <catStat type="freq">12</catStat>
       </catgry>
       <catgry missing="FALSE">
@@ -82,7 +82,7 @@
       </catgry>
       <catgry missing="FALSE">
         <catValu>4</catValu>
-        <labl>Trifft nicht zu, bin 1989 oder sp‰ter geboren</labl>
+        <labl>Trifft nicht zu, bin 1989 oder sp√§ter geboren</labl>
         <catStat type="freq"> 0</catStat>
       </catgry>
     </var>
@@ -162,7 +162,7 @@
       </catgry>
     </var>
     <var ID="bl10" intrvl="labeled_numeric" files="bl">
-      <labl>Art Berufsausbildungsabschluss, Fachhochschule, Berufsakademie (fr¸her: auch Ing</labl>
+      <labl>Art Berufsausbildungsabschluss, Fachhochschule, Berufsakademie (fr√ºher: auch Ing</labl>
       <sumStat type="valid">21</sumStat>
       <sumStat type="invalid">0</sumStat>
       <catgry missing="FALSE">
@@ -177,7 +177,7 @@
       </catgry>
     </var>
     <var ID="bl11" intrvl="labeled_numeric" files="bl">
-      <labl>Universit‰ts-, Hochschulabschluss</labl>
+      <labl>Universit√§ts-, Hochschulabschluss</labl>
       <sumStat type="valid">21</sumStat>
       <sumStat type="invalid">0</sumStat>
       <catgry missing="FALSE">

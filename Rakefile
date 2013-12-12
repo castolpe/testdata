@@ -1,5 +1,5 @@
 
-task all: [:doc, :r2ddi, :recode]
+task all: [:doc, :r2ddi]
 
 desc "Copy CSV documentation"
 task :doc do
@@ -9,12 +9,9 @@ end
 desc "run r2ddi"
 task :r2ddi do
   system "cd r2ddi ; Rscript run.R"
+  system "recode l1...utf8 r2ddi/de/*"
+  system "recode l1...utf8 r2ddi/en/*"
   system "cp -r r2ddi/en/* import/soep-test/r2ddi/v3/"
   system "cp -r r2ddi/de/* import/soep-test/r2ddi/v3/de/"
-end
-
-desc "Recode r2ddi files from latin1 to utf8"
-task :recode do
-  system "recode l1...utf8 import/soep-test/r2ddi/v3/*"
 end
 
