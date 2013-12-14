@@ -1,4 +1,7 @@
-study,label,description
+study,label,description,html_description
 soep-test,SOEP Test Study,"This is a test study.
 
-All data are fictious."
+All data are fictious.","<table class="table">
+<tr><th>Title</th><th>Title2</th></tr>
+<tr><td>one</td><td>two</td></tr>
+</table>"
