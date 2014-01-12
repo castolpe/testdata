@@ -18,7 +18,7 @@ data <- function(dataPath){
   
   listAllVariables <- NULL
   
-  for(i in 1:18){
+  for(i in 1:length(filesToLoad)){
     datasetName <- gsub("(.*)[.][a-z0-1]*","\\1", list.files(path = dataPath, full.names = FALSE)[i], ignore.case = TRUE)
     variableName <- tolower(names(read.dta(file = filesToLoad[i])))
     variablesOneDataset <- data.frame(dataset=datasetName, variable=variableName, in_dataset = TRUE)
