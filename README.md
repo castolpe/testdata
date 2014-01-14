@@ -11,3 +11,7 @@ To recode on Linux use the following command:
 
     recode l1..utf8 *
 
+Format XML
+----------
+
+    xmllint --format in.xml > out.xml
