@@ -17,5 +17,5 @@ end
 
 desc "Copy new questionnaire format"
 task :quest do
-  system "cp -r doc/questions_de_QeDML import/soep-test/qedml"
+  system "cp -r doc/questions_de_QeDML/* import/soep-test/qedml"
 end
