@@ -176,7 +176,7 @@
         <catStat type="freq">18</catStat>
       </catgry>
     </var>
-    <var ID="c11" intrvl="labeled_numeric" files="cl">
+    <var ID="cl11" intrvl="labeled_numeric" files="cl">
       <labl>Universitäts-, Hochschulabschluss</labl>
       <sumStat type="valid">20</sumStat>
       <sumStat type="invalid">0</sumStat>

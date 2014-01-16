@@ -16,7 +16,7 @@
       <sumStat type="valid">12</sumStat>
       <sumStat type="invalid">0</sumStat>
     </var>
-    <var ID="b12" intrvl="numeric" files="bhgen">
+    <var ID="bh12" intrvl="numeric" files="bhgen">
       <labl>Number of household members</labl>
       <sumStat type="Min.">1</sumStat>
       <sumStat type="1st Qu.">1</sumStat>
