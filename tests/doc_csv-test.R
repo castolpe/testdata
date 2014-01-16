@@ -2,7 +2,7 @@ library("testthat")
 library("foreign")
 
 
-#extracts datasets and variables from variables.csv
+# Extracts datasets and variables from variables.csv
 csvVariables <- function(dataPath){
   variable <- tolower(read.csv(dataPath)$variable)
   dataset <- tolower(read.csv(dataPath)$dataset)
@@ -12,7 +12,7 @@ csvVariables <- function(dataPath){
 variablelistCSV <- csvVariables("../doc/doc_csv/variables.csv")
 
 
-#extracts datasets and variables from 04-dist/german
+# Extracts datasets and variables from 04-dist/german
 data <- function(dataPath){
   filesToLoad <- list.files(path = dataPath, full.names = TRUE)
   
@@ -29,10 +29,10 @@ data <- function(dataPath){
 
 allVariables <- data("../data/04-dist/german/Stata12/")
 
-#merging csv variables with dataset variables
+# Merging csv variables with dataset variables
 total <- merge(variablelistCSV, allVariables, all = TRUE)
 
-#prüflisten
+# Create checklists
 varOnlyIn_CSV <- subset(total, total$in_csv & is.na(total$in_dataset), select = c(dataset, variable))
 
 varOnlyIn_Dataset  <- subset(total, is.na(total$in_csv) & total$in_dataset, select = c(dataset, variable))
