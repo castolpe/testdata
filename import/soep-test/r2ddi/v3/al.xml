@@ -242,6 +242,28 @@
       <sumStat type="valid">16</sumStat>
       <sumStat type="invalid">4</sumStat>
     </var>
+    <var ID="AHHNR" intrvl="numeric" files="al">
+      <labl>Current Household Number(=HHNRAKT)</labl>
+      <sumStat type="Min.">1</sumStat>
+      <sumStat type="1st Qu.">2.75</sumStat>
+      <sumStat type="Median">6.5</sumStat>
+      <sumStat type="Mean">6.1</sumStat>
+      <sumStat type="3rd Qu.">9.25</sumStat>
+      <sumStat type="Max.">12</sumStat>
+      <sumStat type="valid">20</sumStat>
+      <sumStat type="invalid">0</sumStat>
+    </var>
+    <var ID="PERSNR" intrvl="numeric" files="al">
+      <labl>Fixed Individual Number</labl>
+      <sumStat type="Min.">1</sumStat>
+      <sumStat type="1st Qu.">121.2</sumStat>
+      <sumStat type="Median">689.5</sumStat>
+      <sumStat type="Mean">1736</sumStat>
+      <sumStat type="3rd Qu.">2864</sumStat>
+      <sumStat type="Max.">9201</sumStat>
+      <sumStat type="valid">20</sumStat>
+      <sumStat type="invalid">0</sumStat>
+    </var>
   </dataDscr>
   <fileDscr ID="al"/>
 </codebook>

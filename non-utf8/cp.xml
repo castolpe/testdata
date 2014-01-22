@@ -1099,18 +1099,6 @@
       <sumStat type="valid">19</sumStat>
       <sumStat type="invalid">1</sumStat>
     </var>
-    <var ID="cp37" intrvl="numeric" files="cp">
-      <labl>Body Mass Index</labl>
-      <sumStat type="Min.">19.38</sumStat>
-      <sumStat type="1st Qu.">20.6</sumStat>
-      <sumStat type="Median">22.31</sumStat>
-      <sumStat type="Mean">22.55</sumStat>
-      <sumStat type="3rd Qu.">24.35</sumStat>
-      <sumStat type="Max.">27.39</sumStat>
-      <sumStat type="NA's">1</sumStat>
-      <sumStat type="valid">19</sumStat>
-      <sumStat type="invalid">1</sumStat>
-    </var>
     <var ID="CHHNR" intrvl="numeric" files="cp">
       <labl>Aktuelle Haushaltsnummer (=HHNRAKT)</labl>
       <sumStat type="Min.">1</sumStat>
