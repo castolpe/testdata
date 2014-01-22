@@ -11,7 +11,7 @@
       <sumStat type="valid">12</sumStat>
       <sumStat type="invalid">0</sumStat>
     </var>
-    <var ID="averageinc" intrvl="numeric" files="ahgen">
+    <var ID="ah11" intrvl="numeric" files="ahgen">
       <labl>Durchschnittsnettohaushaltseinkommen</labl>
       <sumStat type="Min.">3177</sumStat>
       <sumStat type="1st Qu.">3177</sumStat>
@@ -23,7 +23,7 @@
       <sumStat type="valid">11</sumStat>
       <sumStat type="invalid">1</sumStat>
     </var>
-    <var ID="hhmitglieder" intrvl="numeric" files="ahgen">
+    <var ID="ah12" intrvl="numeric" files="ahgen">
       <labl>Anzahl Haushaltsmitglieder</labl>
       <sumStat type="Min.">1</sumStat>
       <sumStat type="1st Qu.">1</sumStat>

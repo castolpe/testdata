@@ -381,7 +381,7 @@
         <style face="normal" font="default" size="100%">In den Berliner Koalitionsverhandlungen will die SPD einen allgemeinen gesetzlichen Mindestlohn von 8,50 Euro je Stunde durchsetzen. Von den Vorteilen, die eine solche Regelung angeblich hätte, bleibt jedoch bei näherem Hinsehen wenig übrig. Vielmehr sind negative Wirkungen auf den Arbeitsmarkt wahrscheinlich.</style>
       </abstract>
       <notes>
-        <style face="normal" font="default" size="100%">Politik</style>
+        <style face="normal" font="default" size="100%">Politik Politik</style>
       </notes>
       <urls>
         <pdf-urls>
@@ -960,6 +960,90 @@
       </remote-database-provider>
       <language>
         <style face="normal" font="default" size="100%">GB</style>
+      </language>
+    </record>
+    <record>
+      <database name="SOEPlit_master.enl" path="U:\SOEPLIT\Endnote\SOEPlit_master.enl">SOEPlit_master.enl</database>
+      <source-app name="EndNote" version="17.0">EndNote</source-app>
+      <rec-number>12985</rec-number>
+      <foreign-keys>
+        <key app="EN" db-id="sw9fd25xqxxt0xep9fbpf9zqrtpe5t9wz0wv">12985</key>
+      </foreign-keys>
+      <ref-type name="Journal Article">17</ref-type>
+      <contributors>
+        <authors>
+          <author>
+            <style face="normal" font="default" size="100%">Brülle, Jan</style>
+          </author>
+        </authors>
+      </contributors>
+      <titles>
+        <title>
+          <style face="normal" font="default" size="100%">Unterschiede in den Arbeitsmarktchancen von atypisch Beschäftigten: Effekte von Beschäftigungsformen oder Erwerbspräferenzen?</style>
+        </title>
+        <secondary-title>
+          <style face="normal" font="default" size="100%">Zeitschrift für Soziologie</style>
+        </secondary-title>
+        <alt-title>
+          <style face="normal" font="default" size="100%">Differential Employment Prospects among Atypical Employees: Effects of Type of Contract or of Worker Preferences?</style>
+        </alt-title>
+      </titles>
+      <alt-periodical>
+        <full-title>
+          <style face="normal" font="default" size="100%">Differential Employment Prospects among Atypical Employees: Effects of Type of Contract or of Worker Preferences?</style>
+        </full-title>
+      </alt-periodical>
+      <pages>
+        <style face="normal" font="default" size="100%">157-179</style>
+      </pages>
+      <volume>
+        <style face="normal" font="default" size="100%">42</style>
+      </volume>
+      <number>
+        <style face="normal" font="default" size="100%">2</style>
+      </number>
+      <dates>
+        <year>
+          <style face="normal" font="default" size="100%">2013</style>
+        </year>
+      </dates>
+      <accession-num>
+        <style face="normal" font="default" size="100%">7691</style>
+      </accession-num>
+      <abstract>
+        <style face="normal" font="default" size="100%">Atypische Beschäftigungsverhältnisse sind keine homogene Kategorie und erfüllen sehr unterschiedliche Funktionen für Arbeitgeber. Der Aufsatz legt dar, dass diese Beschäftigungsformen Folgen für die Opportunitätsstrukturen und Beschäftigungschancen von Arbeitnehmern haben, die sich auf deren spezifische Position im Arbeitsmarkt zurückführen lassen und nicht durch persönliche Ressourcen und Selbstselektion erklärt werden können. Anhand von Daten des Sozio-oekonomischen Panels (SOEP) wird gezeigt, dass befristet Beschäftigte mit höherer Wahrscheinlichkeit in reguläre Beschäftigung wechseln als Teilzeitbeschäftigte und Leiharbeiter. Die geringsten Übergangschancen haben geringfügig Beschäftigte. Dieser Befund gilt auch unter Kontrolle der Eigenschaften der Arbeitnehmer und ihrer Arbeitszeitpräferenzen und belegt einen eigenständigen strukturellen Einfluss der Erwerbsform auf den weiteren Erwerbsverlauf. Darüber hinaus werden heterogene Effekte für betriebliche Kontexte und Qualifikationsniveaus untersucht.                     Non-standard employment relationships are not a homogeneous category and fulfill diverging functions for employers. On these grounds the present contribution argues that different types of contract offer their own specific opportunity structures and thus career prospects for employees. This is an outcome of the structural location of different employment relationships in the labor market rather than personal qualities or self-selection. Using data from the German Socio-Economic Panel (GSOEP) this investigation finds a higher probability of atypical employees entering regular employment if they are fixed-term employees rather than part-timers or temporary agency workers; marginal employment yields the lowest chances for upward mobility. These results cannot be fully explained either by differences in observed characteristics or by preferences of part-time employees for shorter working-hours, albeit a strong effect of the latter for employment transitions is visible. These findings document an independent structural influence of the type of contract on careers. Furthermore, heterogeneous effects on qualification levels and workplace context are examined.</style>
+      </abstract>
+      <label>
+        <style face="normal" font="default" size="100%">labour, miscellaneous</style>
+      </label>
+      <urls>
+        <related-urls>
+          <url>
+            <style face="normal" font="default" size="100%">http://www.zfs-online.org/index.php/zfs/article/viewFile/3127/2665, http://www.zfs-online.org/index.php/zfs/article/viewFile/3128/2666</style>
+          </url>
+        </related-urls>
+        <pdf-urls>
+          <url>file://U:\SOEPLIT\Dokumente\7691.pdf</url>
+          <url>file://U:\SOEPLIT\Dokumente\7691_OnlineAnhang.pdf</url>
+        </pdf-urls>
+      </urls>
+      <custom2>
+        <style face="normal" font="default" size="100%">longitudinal</style>
+      </custom2>
+      <custom4>
+        <style face="normal" font="default" size="100%">T02, T20</style>
+      </custom4>
+      <custom5>
+        <style face="normal" font="default" size="100%">02 SSCI Journal</style>
+      </custom5>
+      <remote-database-name>
+        <style face="normal" font="default" size="100%">INLA</style>
+      </remote-database-name>
+      <remote-database-provider>
+        <style face="normal" font="default" size="100%">SOEP</style>
+      </remote-database-provider>
+      <language>
+        <style face="normal" font="default" size="100%">D</style>
       </language>
     </record>
     <record>

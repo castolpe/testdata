@@ -11,12 +11,12 @@
       <sumStat type="valid">12</sumStat>
       <sumStat type="invalid">0</sumStat>
     </var>
-    <var ID="averageinc" intrvl="string" files="chgen">
+    <var ID="ch11" intrvl="string" files="chgen">
       <labl>Durchschnittsnettohaushaltseinkommen</labl>
       <sumStat type="valid">12</sumStat>
       <sumStat type="invalid">0</sumStat>
     </var>
-    <var ID="hhmitglieder" intrvl="numeric" files="chgen">
+    <var ID="ch12" intrvl="numeric" files="chgen">
       <labl>Anzahl Haushaltsmitglieder</labl>
       <sumStat type="Min.">1</sumStat>
       <sumStat type="1st Qu.">1.5</sumStat>
