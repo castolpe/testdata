@@ -1,0 +1,122 @@
+<codebook>
+  <dataDscr>
+    <var ID="Persnr" intrvl="numeric" files="ppfad">
+      <labl>Unveraendliche Personennummer</labl>
+      <sumStat type="Min.">1</sumStat>
+      <sumStat type="1st Qu.">132</sumStat>
+      <sumStat type="Median">802</sumStat>
+      <sumStat type="Mean">1935</sumStat>
+      <sumStat type="3rd Qu.">2910</sumStat>
+      <sumStat type="Max.">9201</sumStat>
+      <sumStat type="valid">21</sumStat>
+      <sumStat type="invalid">0</sumStat>
+    </var>
+    <var ID="Sex" intrvl="labeled_numeric" files="ppfad">
+      <labl>Geschlecht</labl>
+      <sumStat type="valid">21</sumStat>
+      <sumStat type="invalid">0</sumStat>
+      <catgry missing="FALSE">
+        <catValu>1</catValu>
+        <labl>Männlich</labl>
+        <catStat type="freq">11</catStat>
+      </catgry>
+      <catgry missing="FALSE">
+        <catValu>2</catValu>
+        <labl>Weiblich</labl>
+        <catStat type="freq">10</catStat>
+      </catgry>
+    </var>
+    <var ID="Gebjahr" intrvl="numeric" files="ppfad">
+      <labl>Geburtsjahr</labl>
+      <sumStat type="Min.">1912</sumStat>
+      <sumStat type="1st Qu.">1964</sumStat>
+      <sumStat type="Median">1970</sumStat>
+      <sumStat type="Mean">1966</sumStat>
+      <sumStat type="3rd Qu.">1975</sumStat>
+      <sumStat type="Max.">1984</sumStat>
+      <sumStat type="valid">21</sumStat>
+      <sumStat type="invalid">0</sumStat>
+    </var>
+    <var ID="AHHNR" intrvl="numeric" files="ppfad">
+      <labl>Aktuelle Haushaltsnummer 2001</labl>
+      <sumStat type="Min.">1</sumStat>
+      <sumStat type="1st Qu.">2.75</sumStat>
+      <sumStat type="Median">6.5</sumStat>
+      <sumStat type="Mean">6.1</sumStat>
+      <sumStat type="3rd Qu.">9.25</sumStat>
+      <sumStat type="Max.">12</sumStat>
+      <sumStat type="NA's">1</sumStat>
+      <sumStat type="valid">20</sumStat>
+      <sumStat type="invalid">1</sumStat>
+    </var>
+    <var ID="BHHNR" intrvl="numeric" files="ppfad">
+      <labl>Aktuelle Haushaltsnummer 2002</labl>
+      <sumStat type="Min.">1</sumStat>
+      <sumStat type="1st Qu.">3</sumStat>
+      <sumStat type="Median">7</sumStat>
+      <sumStat type="Mean">6.381</sumStat>
+      <sumStat type="3rd Qu.">10</sumStat>
+      <sumStat type="Max.">12</sumStat>
+      <sumStat type="valid">21</sumStat>
+      <sumStat type="invalid">0</sumStat>
+    </var>
+    <var ID="CHHNR" intrvl="numeric" files="ppfad">
+      <labl>Aktuelle Haushaltsnummer 2003</labl>
+      <sumStat type="Min.">1</sumStat>
+      <sumStat type="1st Qu.">2.75</sumStat>
+      <sumStat type="Median">6.5</sumStat>
+      <sumStat type="Mean">6.2</sumStat>
+      <sumStat type="3rd Qu.">9.25</sumStat>
+      <sumStat type="Max.">12</sumStat>
+      <sumStat type="NA's">1</sumStat>
+      <sumStat type="valid">20</sumStat>
+      <sumStat type="invalid">1</sumStat>
+    </var>
+    <var ID="Anetto" intrvl="numeric" files="ppfad">
+      <labl>Befragungsstatus 2001</labl>
+      <sumStat type="Min.">0</sumStat>
+      <sumStat type="1st Qu.">1</sumStat>
+      <sumStat type="Median">1</sumStat>
+      <sumStat type="Mean">0.9524</sumStat>
+      <sumStat type="3rd Qu.">1</sumStat>
+      <sumStat type="Max.">1</sumStat>
+      <sumStat type="valid">21</sumStat>
+      <sumStat type="invalid">0</sumStat>
+    </var>
+    <var ID="Bnetto" intrvl="numeric" files="ppfad">
+      <labl>Befragungsstatus 2002</labl>
+      <sumStat type="Min.">0</sumStat>
+      <sumStat type="1st Qu.">1</sumStat>
+      <sumStat type="Median">1</sumStat>
+      <sumStat type="Mean">0.9524</sumStat>
+      <sumStat type="3rd Qu.">1</sumStat>
+      <sumStat type="Max.">1</sumStat>
+      <sumStat type="valid">21</sumStat>
+      <sumStat type="invalid">0</sumStat>
+    </var>
+    <var ID="Cnetto" intrvl="numeric" files="ppfad">
+      <labl>Befragungsstatus 2003</labl>
+      <sumStat type="Min.">0</sumStat>
+      <sumStat type="1st Qu.">1</sumStat>
+      <sumStat type="Median">1</sumStat>
+      <sumStat type="Mean">0.9524</sumStat>
+      <sumStat type="3rd Qu.">1</sumStat>
+      <sumStat type="Max.">1</sumStat>
+      <sumStat type="valid">21</sumStat>
+      <sumStat type="invalid">0</sumStat>
+    </var>
+    <var ID="Todjahr" intrvl="numeric" files="ppfad">
+      <labl>Todesjahr -4Steller-</labl>
+      <sumStat type="Min.">2003</sumStat>
+      <sumStat type="1st Qu.">2003</sumStat>
+      <sumStat type="Median">2003</sumStat>
+      <sumStat type="Mean">2003</sumStat>
+      <sumStat type="3rd Qu.">2003</sumStat>
+      <sumStat type="Max.">2003</sumStat>
+      <sumStat type="NA's">20</sumStat>
+      <sumStat type="valid">1</sumStat>
+      <sumStat type="invalid">20</sumStat>
+    </var>
+  </dataDscr>
+  <fileDscr ID="ppfad"/>
+</codebook>

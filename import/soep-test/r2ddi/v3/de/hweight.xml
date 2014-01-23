@@ -1,0 +1,52 @@
+<codebook>
+  <dataDscr>
+    <var ID="HHNR" intrvl="numeric" files="hweight">
+      <labl>Aktuelle Haushaltsnummer (=HHNRAKT)</labl>
+      <sumStat type="Min.">1</sumStat>
+      <sumStat type="1st Qu.">4</sumStat>
+      <sumStat type="Median">7</sumStat>
+      <sumStat type="Mean">21.46</sumStat>
+      <sumStat type="3rd Qu.">10</sumStat>
+      <sumStat type="Max.">201</sumStat>
+      <sumStat type="valid">13</sumStat>
+      <sumStat type="invalid">0</sumStat>
+    </var>
+    <var ID="weight1" intrvl="numeric" files="hweight">
+      <labl></labl>
+      <sumStat type="Min.">0.5</sumStat>
+      <sumStat type="1st Qu.">0.75</sumStat>
+      <sumStat type="Median">0.75</sumStat>
+      <sumStat type="Mean">0.8182</sumStat>
+      <sumStat type="3rd Qu.">1</sumStat>
+      <sumStat type="Max.">1</sumStat>
+      <sumStat type="NA's">2</sumStat>
+      <sumStat type="valid">11</sumStat>
+      <sumStat type="invalid">2</sumStat>
+    </var>
+    <var ID="weight2" intrvl="numeric" files="hweight">
+      <labl></labl>
+      <sumStat type="Min.">0.5</sumStat>
+      <sumStat type="1st Qu.">0.75</sumStat>
+      <sumStat type="Median">0.75</sumStat>
+      <sumStat type="Mean">0.8182</sumStat>
+      <sumStat type="3rd Qu.">1</sumStat>
+      <sumStat type="Max.">1</sumStat>
+      <sumStat type="NA's">2</sumStat>
+      <sumStat type="valid">11</sumStat>
+      <sumStat type="invalid">2</sumStat>
+    </var>
+    <var ID="weight3" intrvl="numeric" files="hweight">
+      <labl></labl>
+      <sumStat type="Min.">0.5</sumStat>
+      <sumStat type="1st Qu.">0.5</sumStat>
+      <sumStat type="Median">1</sumStat>
+      <sumStat type="Mean">0.8182</sumStat>
+      <sumStat type="3rd Qu.">1</sumStat>
+      <sumStat type="Max.">1</sumStat>
+      <sumStat type="NA's">2</sumStat>
+      <sumStat type="valid">11</sumStat>
+      <sumStat type="invalid">2</sumStat>
+    </var>
+  </dataDscr>
+  <fileDscr ID="hweight"/>
+</codebook>

@@ -156,6 +156,17 @@
       <sumStat type="valid">10</sumStat>
       <sumStat type="invalid">2</sumStat>
     </var>
+    <var ID="AHHNR" intrvl="numeric" files="ah">
+      <labl>Current Household number (=HHNRAKT)</labl>
+      <sumStat type="Min.">1</sumStat>
+      <sumStat type="1st Qu.">3.75</sumStat>
+      <sumStat type="Median">6.5</sumStat>
+      <sumStat type="Mean">6.5</sumStat>
+      <sumStat type="3rd Qu.">9.25</sumStat>
+      <sumStat type="Max.">12</sumStat>
+      <sumStat type="valid">12</sumStat>
+      <sumStat type="invalid">0</sumStat>
+    </var>
   </dataDscr>
   <fileDscr ID="ah"/>
 </codebook>

@@ -2,7 +2,7 @@
   <dataDscr>
     <var ID="bl01" intrvl="labeled_numeric" files="bl">
       <labl>Germany Nativity</labl>
-      <sumStat type="valid">20</sumStat>
+      <sumStat type="valid">21</sumStat>
       <sumStat type="invalid">0</sumStat>
       <catgry missing="FALSE">
         <catValu>1</catValu>
@@ -12,24 +12,24 @@
       <catgry missing="FALSE">
         <catValu>2</catValu>
         <labl>No</labl>
-        <catStat type="freq"> 6</catStat>
+        <catStat type="freq"> 7</catStat>
       </catgry>
     </var>
     <var ID="bl02" intrvl="numeric" files="bl">
       <labl>Moving to Germany</labl>
       <sumStat type="Min.">1970</sumStat>
-      <sumStat type="1st Qu.">1976</sumStat>
-      <sumStat type="Median">1980</sumStat>
-      <sumStat type="Mean">1982</sumStat>
-      <sumStat type="3rd Qu.">1988</sumStat>
+      <sumStat type="1st Qu.">1977</sumStat>
+      <sumStat type="Median">1981</sumStat>
+      <sumStat type="Mean">1984</sumStat>
+      <sumStat type="3rd Qu.">1990</sumStat>
       <sumStat type="Max.">2000</sumStat>
       <sumStat type="NA's">14</sumStat>
-      <sumStat type="valid">6</sumStat>
+      <sumStat type="valid">7</sumStat>
       <sumStat type="invalid">14</sumStat>
     </var>
     <var ID="bl03" intrvl="labeled_numeric" files="bl">
       <labl>Immigrant Group</labl>
-      <sumStat type="valid">6</sumStat>
+      <sumStat type="valid">7</sumStat>
       <sumStat type="invalid">14</sumStat>
       <catgry missing="FALSE">
         <catValu>1</catValu>
@@ -58,27 +58,27 @@
       <catgry missing="FALSE">
         <catValu>5</catValu>
         <labl>Other foreigner</labl>
-        <catStat type="freq"> 1</catStat>
+        <catStat type="freq"> 2</catStat>
       </catgry>
     </var>
     <var ID="bl04" intrvl="labeled_numeric" files="bl">
       <labl>Domicile before 1989</labl>
-      <sumStat type="valid">20</sumStat>
+      <sumStat type="valid">21</sumStat>
       <sumStat type="invalid">0</sumStat>
       <catgry missing="FALSE">
         <catValu>1</catValu>
         <labl>German Democratic Republic incl. East-Berlin</labl>
-        <catStat type="freq"> 7</catStat>
+        <catStat type="freq"> 6</catStat>
       </catgry>
       <catgry missing="FALSE">
         <catValu>2</catValu>
         <labl>Federal German Republic incl. West-Berlin</labl>
-        <catStat type="freq">11</catStat>
+        <catStat type="freq">12</catStat>
       </catgry>
       <catgry missing="FALSE">
         <catValu>3</catValu>
         <labl>In another country</labl>
-        <catStat type="freq"> 2</catStat>
+        <catStat type="freq"> 3</catStat>
       </catgry>
       <catgry missing="FALSE">
         <catValu>4</catValu>
@@ -93,22 +93,22 @@
     </var>
     <var ID="bl05" intrvl="labeled_numeric" files="bl">
       <labl>Siblings</labl>
-      <sumStat type="valid">20</sumStat>
+      <sumStat type="valid">21</sumStat>
       <sumStat type="invalid">0</sumStat>
       <catgry missing="FALSE">
         <catValu>1</catValu>
         <labl>Yes</labl>
-        <catStat type="freq">12</catStat>
+        <catStat type="freq">14</catStat>
       </catgry>
       <catgry missing="FALSE">
         <catValu>2</catValu>
         <labl>No</labl>
-        <catStat type="freq"> 8</catStat>
+        <catStat type="freq"> 7</catStat>
       </catgry>
     </var>
     <var ID="bl06" intrvl="labeled_numeric" files="bl">
       <labl>Degree of education,  Apprenticeship (GDR: craftsman degree)</labl>
-      <sumStat type="valid">20</sumStat>
+      <sumStat type="valid">21</sumStat>
       <sumStat type="invalid">0</sumStat>
       <catgry missing="FALSE">
         <catValu>1</catValu>
@@ -118,12 +118,12 @@
       <catgry missing="FALSE">
         <catValu>2</catValu>
         <labl>No</labl>
-        <catStat type="freq">16</catStat>
+        <catStat type="freq">17</catStat>
       </catgry>
     </var>
     <var ID="bl07" intrvl="labeled_numeric" files="bl">
       <labl>Degree of education, Vocational school, business school, health school</labl>
-      <sumStat type="valid">20</sumStat>
+      <sumStat type="valid">21</sumStat>
       <sumStat type="invalid">0</sumStat>
       <catgry missing="FALSE">
         <catValu>1</catValu>
@@ -133,17 +133,17 @@
       <catgry missing="FALSE">
         <catValu>2</catValu>
         <labl>No</labl>
-        <catStat type="freq">19</catStat>
+        <catStat type="freq">20</catStat>
       </catgry>
     </var>
     <var ID="bl08" intrvl="labeled_numeric" files="bl">
       <labl>Degree of education, Technical school, i.e. technican degree, master degree</labl>
-      <sumStat type="valid">20</sumStat>
+      <sumStat type="valid">21</sumStat>
       <sumStat type="invalid">0</sumStat>
       <catgry missing="FALSE">
         <catValu>1</catValu>
         <labl>Yes</labl>
-        <catStat type="freq"> 2</catStat>
+        <catStat type="freq"> 3</catStat>
       </catgry>
       <catgry missing="FALSE">
         <catValu>2</catValu>
@@ -153,7 +153,7 @@
     </var>
     <var ID="bl09" intrvl="labeled_numeric" files="bl">
       <labl>Degree of education, Public officer education</labl>
-      <sumStat type="valid">20</sumStat>
+      <sumStat type="valid">21</sumStat>
       <sumStat type="invalid">0</sumStat>
       <catgry missing="FALSE">
         <catValu>1</catValu>
@@ -163,12 +163,12 @@
       <catgry missing="FALSE">
         <catValu>2</catValu>
         <labl>No</labl>
-        <catStat type="freq">18</catStat>
+        <catStat type="freq">19</catStat>
       </catgry>
     </var>
     <var ID="bl10" intrvl="labeled_numeric" files="bl">
       <labl>Degree of education, University of applied science, university of cooperative ed</labl>
-      <sumStat type="valid">20</sumStat>
+      <sumStat type="valid">21</sumStat>
       <sumStat type="invalid">0</sumStat>
       <catgry missing="FALSE">
         <catValu>1</catValu>
@@ -178,12 +178,12 @@
       <catgry missing="FALSE">
         <catValu>2</catValu>
         <labl>No</labl>
-        <catStat type="freq">18</catStat>
+        <catStat type="freq">19</catStat>
       </catgry>
     </var>
     <var ID="bl11" intrvl="labeled_numeric" files="bl">
       <labl>Degree of education, University degree</labl>
-      <sumStat type="valid">20</sumStat>
+      <sumStat type="valid">21</sumStat>
       <sumStat type="invalid">0</sumStat>
       <catgry missing="FALSE">
         <catValu>1</catValu>
@@ -193,12 +193,12 @@
       <catgry missing="FALSE">
         <catValu>2</catValu>
         <labl>No</labl>
-        <catStat type="freq">14</catStat>
+        <catStat type="freq">15</catStat>
       </catgry>
     </var>
     <var ID="bl12" intrvl="labeled_numeric" files="bl">
       <labl>Degree of education, Other degree</labl>
-      <sumStat type="valid">20</sumStat>
+      <sumStat type="valid">21</sumStat>
       <sumStat type="invalid">0</sumStat>
       <catgry missing="FALSE">
         <catValu>1</catValu>
@@ -208,17 +208,17 @@
       <catgry missing="FALSE">
         <catValu>2</catValu>
         <labl>No</labl>
-        <catStat type="freq">19</catStat>
+        <catStat type="freq">20</catStat>
       </catgry>
     </var>
     <var ID="bl13" intrvl="labeled_numeric" files="bl">
       <labl>Children</labl>
-      <sumStat type="valid">19</sumStat>
+      <sumStat type="valid">20</sumStat>
       <sumStat type="invalid">1</sumStat>
       <catgry missing="FALSE">
         <catValu>1</catValu>
         <labl>No, never had children</labl>
-        <catStat type="freq"> 9</catStat>
+        <catStat type="freq">10</catStat>
       </catgry>
       <catgry missing="FALSE">
         <catValu>2</catValu>
@@ -235,12 +235,34 @@
       <sumStat type="Min.">0</sumStat>
       <sumStat type="1st Qu.">0</sumStat>
       <sumStat type="Median">1</sumStat>
-      <sumStat type="Mean">1.529</sumStat>
+      <sumStat type="Mean">1.444</sumStat>
       <sumStat type="3rd Qu.">2</sumStat>
       <sumStat type="Max.">4</sumStat>
       <sumStat type="NA's">3</sumStat>
-      <sumStat type="valid">17</sumStat>
+      <sumStat type="valid">18</sumStat>
       <sumStat type="invalid">3</sumStat>
+    </var>
+    <var ID="PERSNR" intrvl="numeric" files="bl">
+      <labl>Fixed Individual Number</labl>
+      <sumStat type="Min.">1</sumStat>
+      <sumStat type="1st Qu.">132</sumStat>
+      <sumStat type="Median">802</sumStat>
+      <sumStat type="Mean">1935</sumStat>
+      <sumStat type="3rd Qu.">2910</sumStat>
+      <sumStat type="Max.">9201</sumStat>
+      <sumStat type="valid">21</sumStat>
+      <sumStat type="invalid">0</sumStat>
+    </var>
+    <var ID="BHHNR" intrvl="numeric" files="bl">
+      <labl>Current Household Number =HHNRAKT)</labl>
+      <sumStat type="Min.">1</sumStat>
+      <sumStat type="1st Qu.">3</sumStat>
+      <sumStat type="Median">7</sumStat>
+      <sumStat type="Mean">6.381</sumStat>
+      <sumStat type="3rd Qu.">10</sumStat>
+      <sumStat type="Max.">12</sumStat>
+      <sumStat type="valid">21</sumStat>
+      <sumStat type="invalid">0</sumStat>
     </var>
   </dataDscr>
   <fileDscr ID="bl"/>

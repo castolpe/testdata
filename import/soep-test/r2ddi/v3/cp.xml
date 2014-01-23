@@ -1099,6 +1099,28 @@
       <sumStat type="valid">19</sumStat>
       <sumStat type="invalid">1</sumStat>
     </var>
+    <var ID="CHHNR" intrvl="numeric" files="cp">
+      <labl>Current Household Number (=HHNRAKT)</labl>
+      <sumStat type="Min.">1</sumStat>
+      <sumStat type="1st Qu.">2.75</sumStat>
+      <sumStat type="Median">6.5</sumStat>
+      <sumStat type="Mean">6.2</sumStat>
+      <sumStat type="3rd Qu.">9.25</sumStat>
+      <sumStat type="Max.">12</sumStat>
+      <sumStat type="valid">20</sumStat>
+      <sumStat type="invalid">0</sumStat>
+    </var>
+    <var ID="PERSNR" intrvl="numeric" files="cp">
+      <labl>Fixed Individual Number</labl>
+      <sumStat type="Min.">1</sumStat>
+      <sumStat type="1st Qu.">121.2</sumStat>
+      <sumStat type="Median">689.5</sumStat>
+      <sumStat type="Mean">1890</sumStat>
+      <sumStat type="3rd Qu.">2912</sumStat>
+      <sumStat type="Max.">9201</sumStat>
+      <sumStat type="valid">20</sumStat>
+      <sumStat type="invalid">0</sumStat>
+    </var>
   </dataDscr>
   <fileDscr ID="cp"/>
 </codebook>
