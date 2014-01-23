@@ -1,4 +1,4 @@
-study,dataset,variable,concept,questionnaire,question,question_number,question_item,dataset_raw,variable_raw,identifier,primary_key,description,description_long,boost
+study,dataset,variable,concept,questionnaire,question,question_number,item,dataset_raw,variable_raw,identifier,primary_key,description,description_long,boost
 soep-test,ah-raw,hkind,hkind,soep-test-2001-hh,1,1,,,,,,,,
 soep-test,ah-raw,hkind_dummy,hkind_dummy,soep-test-2001-hh,2,2,,,,,,,,
 soep-test,ah-raw,hkgeba,hkgeba,soep-test-2001-hh,3,3,,,,,,,,
