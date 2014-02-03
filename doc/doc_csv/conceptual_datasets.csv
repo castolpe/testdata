@@ -1,5 +1,7 @@
 conceptual_dataset,label,description
-raw,Raw dataset,Dataset as delivered by the fieldwork organisation
-basic,Basic dataset,Published version of a raw dataset
-gen,Generated dataset,Dataset with generated variables
-structure,Structural datasets,Datasets with structure information about brutto and netto samples and how they develop
+org/net,Original data (net),"Information from succesfull interviewed respondents, mostly based on a questionnaire"
+gen,Generated data,Generated data and check for longitudinally consistency
+track,Structure or tracking files,Essential files to track persons or household over time
+org/gross,Original data (gross),"Information on gross sample, mostly from the field work"
+survey,Survey methodology,Dataset describing the survey design or weighting scheme
+raw,Raw data (undistributed),Undistributed original datasets
