@@ -18,10 +18,56 @@ keep AHHNR ah12
 save tmp/ah12.dta, replace
 /* END ah12 */ 
 
-/* ahgen.dta */
+/* START ahgen.dta */
 use tmp/ah11.dta
 merge m:m AHHNR using tmp/ah12.dta, nogenerate
+bysort AHHNR : keep if _n == 1
 save output/ahgen.dta, replace
+/* END ap37 */
+
+
+/* START bhgen.dta*/
+use data/bh.dta, clear
+egen bh11 = mean(bh10)
+label variable bh11 "Durchschnittsnettoeinkommen"
+keep BHHNR bh11
+save tmp/bh11.dta, replace
+
+use data/bp.dta, clear
+bysort BHHNR: egen pers = count(PERSNR) 
+merge m:1 BHHNR using data/bh.dta
+gen bh12 = pers + bh02
+label variable bh12 "Haushaltsgröße"
+keep BHHNR bh12
+save tmp/bh12.dta, replace
+
+use tmp/bh11.dta
+merge m:m BHHNR using tmp/bh12.dta, nogenerate
+bysort BHHNR : keep if _n == 1
+save output/bhgen.dta, replace
+/* END bhgen.dta*/
+
+/* START chgen.dta*/
+use data/ch.dta, clear
+egen ch11 = mean(ch10)
+label variable ch11 "Durchschnittsnettoeinkommen"
+keep CHHNR ch11
+save tmp/ch11.dta, replace
+
+use data/cp.dta, clear
+bysort CHHNR: egen pers = count(PERSNR) 
+merge m:m CHHNR using data/ch.dta
+gen ch12 = pers + ch02
+label variable ch12 "Haushaltsgröße"
+keep CHHNR ch12
+save tmp/ch12.dta, replace
+
+use tmp/ch11.dta
+merge m:m CHHNR using tmp/ch12.dta, nogenerate
+bysort CHHNR : keep if _n == 1
+save output/chgen.dta, replace
+/* END chgen.dta*/
+
 
 /* START ap37 numerisch*/
 use data/ap.dta, clear
@@ -29,7 +75,6 @@ gen ap37 = ap36/(ap35/100)^2
 label variable ap37 "BMI numeric"
 keep PERSNR ap37
 save tmp/ap37.dta, replace
-/* END ap37 */
 
 /* START ap37 kategorial */
 use tmp/ap37.dta, clear
@@ -87,7 +132,7 @@ save output/pweight.dta, replace
 
 /* START hweight */
 use data/ah.dta, clear
-merge 1:1 AHHNR using output/ahgen.dta
+merge 1:1 AHHNR using output/ahgen.dta, nogenerate
 gen  hdist = . 
 replace hdist = 3 if ah12 == 1
 replace hdist = 3 if ah12 == 2
@@ -99,8 +144,13 @@ replace hdist = . if ah12 == .
 bysort ah12: gen hnumber = _N
 gen hweight1 = hdist/hnumber
 label variable hweight1 "hweight 2001"
+keep AHHNR hweight1
+sort AHHNR
+gen HHNR = _n
+save tmp/hweight1.dta, replace
 
 use output/bhgen.dta, clear
+merge 1:1 BHHNR using output/bhgen.dta, nogenerate
 gen  hdist = . 
 replace hdist = 3 if bh12 == 1
 replace hdist = 3 if bh12 == 2
@@ -109,21 +159,42 @@ replace hdist = 1 if bh12 == 4
 replace hdist = 1 if bh12 == 5
 replace hdist = 1 if bh12 == 6
 replace hdist = . if bh12 == .
-gen hweight2 = hdist/bh12
+bysort bh12: gen hnumber = _N
+gen hweight2 = hdist/hnumber
 label variable hweight2 "hweight 2002"
+keep BHHNR hweight2
+sort BHHNR
+gen HHNR = _n
 save tmp/hweight2.dta, replace
 
+
 use output/chgen.dta, clear
+merge 1:1 CHHNR using output/chgen.dta, nogenerate
 gen  hdist = . 
-replace hdist = 1 if ch12 == 1
+replace hdist = 4 if ch12 == 1
 replace hdist = 2 if ch12 == 2
 replace hdist = 3 if ch12 == 3
-replace hdist = 4 if ch12 == 4
-replace hdist = 5 if ch12 == 5
-replace hdist = 6 if ch12 == 6
+replace hdist = 1 if ch12 == 4
+replace hdist = 2 if ch12 == 5
+replace hdist = 1 if ch12 == 6
 replace hdist = . if ch12 == .
-gen hweight2 = hdist/ch12
+bysort ch12: gen hnumber = _N
+gen hweight3 = hdist/hnumber
 label variable hweight3 "hweight 2003"
+keep CHHNR hweight3
+sort CHHNR
+gen HHNR = _n
 save tmp/hweight3.dta, replace
+
+
+use tmp/hweight1.dta, clear
+merge 1:1 HHNR  using tmp/hweight2.dta, nogenerate
+save tmp/hweight12.dta, replace
+use tmp/hweight12.dta, clear
+merge 1:1 HHNR using tmp/hweight3.dta, nogenerate
+keep HHNR hweight1 hweight2 hweight3
+save output/hweight.dta, replace
+
+/* END hweight */
 
 
