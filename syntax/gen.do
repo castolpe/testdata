@@ -20,7 +20,7 @@ save tmp/ah12.dta, replace
 
 /* ahgen.dta */
 use tmp/ah11.dta
-merge 1:1 AHHNR using tmp/ah12.dta, nogenerate
+merge m:m AHHNR using tmp/ah12.dta, nogenerate
 save output/ahgen.dta, replace
 
 /* START ap37 numerisch*/
@@ -87,7 +87,7 @@ save output/pweight.dta, replace
 
 /* START hweight */
 use data/ah.dta, clear
-merge 1:m AHHNR using output/ahgen.dta
+merge 1:1 AHHNR using output/ahgen.dta
 gen  hdist = . 
 replace hdist = 3 if ah12 == 1
 replace hdist = 3 if ah12 == 2
@@ -125,12 +125,5 @@ replace hdist = . if ch12 == .
 gen hweight2 = hdist/ch12
 label variable hweight3 "hweight 2003"
 save tmp/hweight3.dta, replace
-/* ahhnr .. ?
-use tmp/hweight1.dta, clear
-merge m:m ??????ß using tmp/weight2.dta
-save tmp/weight12.dta, replace
 
-use tmp/weight12.dta, clear
-merge m:m PERSNR using tmp/weight3.dta
-save output/pweight.dta, replace
 
