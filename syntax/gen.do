@@ -18,9 +18,9 @@ keep AHHNR ah12
 save tmp/ah12.dta, replace
 /* END ah12 */ 
 
-/* agen.dta */
+/* ahgen.dta */
 use tmp/ah11.dta
-merge m:m AHHNR using tmp/ah12.dta, nogenerate
+merge 1:1 AHHNR using tmp/ah12.dta, nogenerate
 save output/ahgen.dta, replace
 
 /* START ap37 numerisch*/
