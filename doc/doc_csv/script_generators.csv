@@ -1,4 +1,7 @@
 study,distribution,script_generator
+soep-test,v3,SoepStata
+soep-test,v3,SoepSPSS
+soep-test,v3,SoepR
 soep-test,v3,BaseR
 soep-test,v3,BaseStata
 soep-test,v3,BaseSPSS
