@@ -5,3 +5,5 @@ track,Structure or tracking files,Essential files to track persons or household 
 org/gross,Original data (gross),"Information on gross sample, mostly from the field work"
 survey,Survey methodology,Dataset describing the survey design or weighting scheme
 raw,Raw data (undistributed),Undistributed original datasets
+net-long,Original data for long datasets,
+gen-long,Generated data for long datasets,
