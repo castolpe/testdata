@@ -1,10 +1,10 @@
-/* START ap37 */
+/* START bmi */
 use data/ap.dta, clear
 gen ap37 = ap36/(ap35/100)^2
 label variable ap37 "BMI numeric"
 keep PERSNR ap37
 save tmp/ap37.dta, replace
-/* END ap37 */
+/* END bmi */
 
 /* START ap37k */
 use tmp/ap37.dta, clear

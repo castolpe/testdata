@@ -1,10 +1,10 @@
-/* START cp37*/
+/* START bmi */
 use data/cp.dta, clear
 gen cp37 = cp36/(cp35/100)^2
 label variable cp37 "BMI numeric"
 keep PERSNR cp37
 save tmp/cp37.dta, replace
-/* END cp37*/ 
+/* END bmi */ 
 
 /* START cp37k */
 use tmp/cp37.dta, clear
