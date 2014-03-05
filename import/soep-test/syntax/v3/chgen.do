@@ -11,7 +11,7 @@ use data/cp.dta, clear
 bysort CHHNR: egen pers = count(PERSNR) 
 merge m:m CHHNR using data/ch.dta
 gen ch12 = pers + ch02
-label variable ch12 "Haushaltsgröße"
+label variable ch12 "HaushaltsgrÃ¶ÃŸe"
 keep CHHNR ch12
 save tmp/ch12.dta, replace
 /* END ch12 */

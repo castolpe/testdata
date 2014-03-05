@@ -11,7 +11,7 @@ use data/bp.dta, clear
 bysort BHHNR: egen pers = count(PERSNR) 
 merge m:1 BHHNR using data/bh.dta
 gen bh12 = pers + bh02
-label variable bh12 "Haushaltsgröße"
+label variable bh12 "HaushaltsgrÃ¶ÃŸe"
 keep BHHNR bh12
 save tmp/bh12.dta, replace
 /* END bh12 */
