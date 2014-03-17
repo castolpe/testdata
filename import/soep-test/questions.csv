@@ -1,0 +1,149 @@
+study,questionnaire,question,item,number,text,instruction,answer_list,scale,filter,goto,dummy,meta_var,label,view_sort_id,view_lft,view_rgt,view_import_note,view_import_concept,view_import_type,view_first_concept,view_calculated_number,view_calculated_item
+soep-test,soep-test-2003-ctest,pwerk,,1,"Wie sieht gegenwärtig Ihr normaler Alltag aus?
+Wie viele Stunden pro Tag entfallen bei Ihnen an einem durchschnittlichen Werktag auf die folgenden Tätigkeiten?","Bitte nur ganze Stunden angeben. Falls nicht zutreffend, bitte ""0"" eintragen!
+Falls nicht zutreffend, bitte ""0"" eintragen!",,txt,,,,,"Alltag, Werktag",1,,77,"Q100 | PWERK X | Alltag, Werktag",,Numeric,,1,
+soep-test,soep-test-2003-ctest,pwerk,1,1,"Berufstätigkeit, Lehre (Zeiten einschließlich Arbeitsweg, auch nebenberufliche Tätigkeit)",,pwerk,int,,,,,"Alltag, Werktag",2,,69,,pwerk1,Numeric,,1,
+soep-test,soep-test-2003-ctest,pwerk,2,1,"Besorgungen (Einkaufen, Beschaffungen, Behördengänge)",,pwerk,int,,,,,"Alltag, Werktag",3,68,70,,pwerk2,Numeric,,1,
+soep-test,soep-test-2003-ctest,pwerk,3,1,"Hausarbeit (Waschen, Kochen, Putzen)",,pwerk,int,,,,,"Alltag, Werktag",4,69,71,,pwerk3,Numeric,,1,
+soep-test,soep-test-2003-ctest,pwerk,4,1,Kinderbetreuung,,pwerk,int,,,,,"Alltag, Werktag",5,70,72,,pwerk4,Numeric,,1,
+soep-test,soep-test-2003-ctest,pwerk,5,1,Versorgung und Betreuung von pflegebedürftigen Personen,,pwerk,int,,,,,"Alltag, Werktag",6,71,73,,pwerk5,Numeric,,1,
+soep-test,soep-test-2003-ctest,pwerk,6,1,"Aus-und Weiterbildung, Lernen (auch Schule, Studium, Promotion)",,pwerk,int,,,,,"Alltag, Werktag",7,72,74,,pwerk6,Numeric,,1,
+soep-test,soep-test-2003-ctest,pwerk,7,1,"Reparaturen am Haus, in der Wohnung, am Auto, Gartenarbeit",,pwerk,int,,,,,"Alltag, Werktag",8,73,75,,pwerk7,Numeric,,1,
+soep-test,soep-test-2003-ctest,pwerk,8,1,Hobbies und sonstige Freizeitbeschäftigungen,,pwerk,int,,,,,"Alltag, Werktag",9,75,,,pwerk8,Numeric,,1,
+soep-test,soep-test-2003-ctest,pwerk,ka,1,GesamtKA,,,int,,,,true,GesamtKA,10,,,,pwerkka,,,1,
+soep-test,soep-test-2003-ctest,pdummy,,2,In welcher beruflichen Stellung sind Sie derzeit beschäftigt?,"Wenn Sie mehr als eine berufliche Tätigkeit ausüben, beantworten Sie die folgenden
+Fragen bitte nur für Ihre derzeitige berufliche Haupttätigkeit.",pdummy,cat,,,true,,Dummy Berufliche Stellung,11,67,78,Q201 | P XXX Dummy | Dummy Berufliche Stellung,pdummy,Single coded,,2,1
+soep-test,soep-test-2003-ctest,psst,1,2,In welchem Bereich sind Sie selbständig?,,psst1,cat,pdummy=1,,,,Selbständig,12,77,79,Q202 | PSST X 1 | Selbständig,psst1,Single coded,,2,2
+soep-test,soep-test-2003-ctest,psst,2,2,Wie viele Mitarbeiter beschäftigen Sie?,,psst2,cat,"psst:1=1,2,3",,,,Anzahl Mitarbeiter,13,78,80,Q203 | PSST X 2 | Anzahl Mitarbeiter,psst2,Single coded,,2,3
+soep-test,soep-test-2003-ctest,parb,,2,In welcher beruflichen Stellung sind Sie derzeit als Arbeiter beschäftigt?,,parb,cat,pdummy=2,,,,Arbeiter,14,79,81,Q204 | PARB | Arbeiter,parb,Single coded,,2,4
+soep-test,soep-test-2003-ctest,pamt,,2,In welcher beruflichen Stellung sind Sie derzeit als Beamter beschäftigt (einschließlich Richter und Berufssoldaten)?,,pamt,cat,pdummy=3,,,,Beamte,15,80,82,Q205 | PAMT | Beamte,pamt,Single coded,,2,5
+soep-test,soep-test-2003-ctest,pang,,2,In welcher beruflichen Stellung sind Sie als Angestellter beschäftigt?,,pang,cat,pdummy=4,,,,Angestellte,16,81,83,Q206 | PANG | Angestellte,pang,Single coded,,2,6
+soep-test,soep-test-2003-ctest,pazubi,,2,In welcher beruflichen Stellung sind Sie derzeit als Auszubildender oder Praktikant beschäftigt?,,pazubi,cat,pdummy=5,,,,Auszubildende,17,82,84,Q207 | PAZUBI | Auszubildende,pazubi,Single coded,,2,7
+soep-test,soep-test-2003-ctest,pber,ka,2,GesamtKA,,,int,,,,true,GesamtKA,18,,,,,,,2,
+soep-test,soep-test-2003-ctest,pwohn,4,3,Wie viele Kilometer ist Ihr Arbeitsplatz von Ihrer Wohnung entfernt?,,,dec,,,,,Entfernung Arbeitsplatz,19,83,85,Q301 | PWOHN4 | Entfernung Arbeitsplatz,pwohn4,Open,,3,1
+soep-test,soep-test-2003-ctest,pwohn,5,3,Wie viele Kilometer ist Ihr Arbeitsplatz von Ihrer Wohnung entfernt?,,pwohn5,cat,,,,,Entfernung Arbeitsplatz,20,84,86,Q302 | PWOHN5 | Entfernung Arbeitsplatz,pwohn5,Single coded,,3,2
+soep-test,soep-test-2003-ctest,lfbroken,,4,Haben Sie einen der folgend genannten freiwilligen Dienste abgeleistet?,,lfbroken,cat,,,,,Freiwilligen Dienste,21,85,88,Q401 | LF XXX BROKEN | Freiwilligen Dienste,lfbroken,Multi coded,,4,1
+soep-test,soep-test-2003-ctest,lfrei1mo,1,4,"Wie lange?
+
+[Monate]",,,int,lfbroken=2,,,,Dauer Bundesfreiwilligendienst [Monate],22,86,89,Q402 | LFREI1MO | Dauer Bundesfreiwilligendienst [Monate],lfrei1mo,Numeric,,4,2
+soep-test,soep-test-2003-ctest,lfrei2mo,2,4,"Wie lange?
+
+[Monate]",,,int,lfbroken=3,,,,Dauer Freiwilligen Wehrdienst [Monate],23,88,90,Q403 | LFREI2MO | Dauer Freiwilligen Wehrdienst [Monate],lfrei2mo,Numeric,,4,3
+soep-test,soep-test-2003-ctest,lwehr,,5,Haben Sie Wehr- oder Zivildienst geleistet?,Nur an Männer die 1992 oder früher geboren wurden:,lwehr1,cat,,,,,Wehr- und Zivildienst,24,89,91,Q501 | LWEHR1 | Wehr- und Zivildienst,lwehr1,Single coded,,5,1
+soep-test,soep-test-2003-ctest,lwehr,1,5,In welcher der folgenden Formen?,,lwehr2,cat,lwehr:1=1,,,,"Form Wehr-, Zivildienst",25,90,92,"Q502 | LWEHR2 | Form Wehr-, Zivildienst",lwehr2,Single coded,,5,2
+soep-test,soep-test-2003-ctest,lwehr,2,5,Aus welchen Gründen nicht?,,lwehr3,cat,lwehr:1=2,,,,Gründe kein Wehr- und Zivildienst,26,91,93,Q503 | LWEHR3 | Gründe kein Wehr- und Zivildienst,lwehr3,Single coded,,5,3
+soep-test,soep-test-2003-ctest,pekxx,,6,Welche der im folgenden aufgeführten Einkünfte beziehen Sie persönlich derzeit?,Bitte alle zutreffenden ankreuzen!,pek,txt,,,,,Einkünfte,27,92,95,Q601 | PEK XX | Einkünfte,,Multi coded,,6,1
+soep-test,soep-test-2003-ctest,pekxx,1,6,"Eigene Rente, Pension",,,bin,,,,,Einkünfte,28,,,,pek01,Multi coded,,6,
+soep-test,soep-test-2003-ctest,pekxx,2,6,"Witwenrente / -pension, Waisenrente",,,bin,,,,,Einkünfte,29,,,,pek02,Multi coded,,6,
+soep-test,soep-test-2003-ctest,pekxx,3,6,Arbeitslosengeld,,,bin,,,,,Einkünfte,30,,,,pek03,Multi coded,,6,
+soep-test,soep-test-2003-ctest,pekxx,4,6,Arbeitslosengeld II / Sozialgeld ,,,bin,,,,,Einkünfte,31,,,,pek04,Multi coded,,6,
+soep-test,soep-test-2003-ctest,pekxx,5,6,Unterhaltsgeld bei Fortbildung / Umschulung; Übergangsgeld,,,bin,,,,,Einkünfte,32,,,,pek05,Multi coded,,6,
+soep-test,soep-test-2003-ctest,pekxx,7,6,"Mutterschaftsgeld während des Mutterschutzes, Elterngeld, Erzeihungsgeld",,,bin,,,,,Einkünfte,33,,,,pek07,Multi coded,,6,
+soep-test,soep-test-2003-ctest,pekxx,20,6,Kindesunterhalt,,,bin,,,,,Einkünfte,34,,,,pek20,Multi coded,,6,
+soep-test,soep-test-2003-ctest,pekxx,21,6,Betreuungsunterhalt,,,bin,,,,,Einkünfte,35,,,,pek21,Multi coded,,6,
+soep-test,soep-test-2003-ctest,pekxx,22,6,"Nachehelicher Unterhalt, Trennungsunterhalt",,,bin,,,,,Einkünfte,36,,,,pek22,Multi coded,,6,
+soep-test,soep-test-2003-ctest,pekxx,18,6,Unterhaltszahlung aus Unterhaltsvorschusskassen,,,bin,,,,,Einkünfte,37,,,,pek18,Multi coded,,6,
+soep-test,soep-test-2003-ctest,pekxx,8,6,"BAföG, Stipendium, Berufsausbildungsbeihilfe",,,bin,,,,,Einkünfte,38,,,,pek08,Multi coded,,6,
+soep-test,soep-test-2003-ctest,pekxx,9,6,"Wehrsold bei freiwilligem Wehrdienst,
+Aufwandsentschädigung für Freiwilliges soziales/
+ökologisches Jahr oder Bundesfreiwilligendienst",,,bin,,,,,Einkünfte,39,,,,pek091,Multi coded,,6,
+soep-test,soep-test-2003-ctest,pekxx,11,6,"Sonstige Unterstützung von Personen,
+die nicht im Haushalt leben",,,bin,,,,,Einkünfte,40,,,,pek11,Multi coded,,6,
+soep-test,soep-test-2003-ctest,pekxx,no,6,Nichts davon,,,bin,,,,,Einkünfte,41,,,,pekno,Single Coded,,6,
+soep-test,soep-test-2003-ctest,pekxxx,,6,"Welche der im folgenden aufgeführten Einkünfte beziehen Sie persönlich derzeit? Für alle zutreffenden Einkünfte geben Sie bitte an, wie hoch derzeit der Betrag im Monat ist.
+Wenn Sie den monatlichen Betrag nicht genau sagen können, geben Sie bitte einen Schätzbetrag an.",Bruttobetrag heißt: vor Abzug eventueller Steuern oder Sozialversicherungsbeiträge. Dies ist hier nur von Bedeutung für Pensionen und eventuell für Betriebsrenten.,,txt,,,,,Einkünfte/Betrag,42,,,,,,,6,
+soep-test,soep-test-2003-ctest,pekxxx,11,6,"Geben Sie bitte für die eigene Rente/Pension an, wie hoch derzeit der Betrag im Monat ist.
+
+Wenn Sie den monatlichen Betrag nicht genau sagen können, geben Sie bitte einen Schätzbetrag an.",Falls Sie mehrere haben: bitte zusammenrechnen!,,dec,pekxx=1,,,,Einkünfte/Rente,43,93,96,Q602 | PEK011 | Einkünfte/Rente,pek011,Numeric,,6,2
+soep-test,soep-test-2003-ctest,pekxxx,21,6,"Geben Sie bitte für die Witwenrente/-pension bzw. Waisenrente an, wie hoch derzeit der Betrag im Monat ist.
+Wenn Sie den monatlichen Betrag nicht genau sagen können, geben Sie bitte einen Schätzbetrag an.",Falls Sie mehrere haben: bitte zusammenrechnen!,,dec,pekxx=2,,,,Einkünfte/Witwenrente,44,95,97,Q603 | PEK021 | Einkünfte/Witwenrente,pek021,Numeric,,6,3
+soep-test,soep-test-2003-ctest,pekxxx,31,6,"Geben Sie bitte für das Arbeitslosengeld an, wie hoch derzeit der Betrag im Monat ist.
+Wenn Sie den monatlichen Betrag nicht genau sagen können, geben Sie bitte einen Schätzbetrag an.",,,dec,pekxx=3,,,,Einkünfte/Arbeitslosengeld,45,96,98,Q604 | PEK031 | Einkünfte/Arbeitslosengeld,pek031,Numeric,,6,4
+soep-test,soep-test-2003-ctest,pekxxx,51,6,"Geben Sie bitte für das Unterhaltsgeld bei Fortbildung/Umschulung bzw. das Übergangsgeld an, wie hoch derzeit der Betrag im Monat ist.
+Wenn Sie den monatlichen Betrag nicht genau sagen können, geben Sie bitte einen Schätzbetrag an.",,,dec,pekxx=5,,,,Einkünfte/Unterhaltsgeld,46,97,99,Q605 | PEK051 | Einkünfte/Unterhaltsgeld,pek051,Numeric,,6,5
+soep-test,soep-test-2003-ctest,pekxxx,71,6,"Geben Sie bitte für das Mutterschaftsgeld während des Mutterschutzes,das Elterngeld, das Erzeihungsgeld an, wie hoch derzeit der Betrag im Monat ist.
+Wenn Sie den monatlichen Betrag nicht genau sagen können, geben Sie bitte einen Schätzbetrag an.",,,dec,pekxx=7,,,,Einkünfte/Mutterschaftsgeld,47,98,100,Q606 | PEK071 | Einkünfte/Mutterschaftsgeld,pek071,Numeric,,6,6
+soep-test,soep-test-2003-ctest,pekxxx,201,6,"Geben Sie bitte für den Kindesunterhalt an,wie hoch derzeit der Betrag im Monat ist.
+Wenn Sie den monatlichen Betrag nicht genau sagen können, geben Sie bitte einen Schätzbetrag an.",,,dec,pekxx=20,,,,Einkünfte/Kinderunterhalt,48,,,,pek201,Numeric,,6,
+soep-test,soep-test-2003-ctest,pekxxx,211,6,"Geben Sie bitte für den Betreuungsunterhalt an,wie hoch derzeit der Betrag im Monat ist.
+Wenn Sie den monatlichen Betrag nicht genau sagen können, geben Sie bitte einen Schätzbetrag an.",,,dec,pekxx=21,,,,Einkünfte/Betreuungsunterhalt,49,,,,pek211,Numeric,,6,
+soep-test,soep-test-2003-ctest,pekxxx,221,6,"Geben Sie bitte für den nachehelichen Unterhalt/ Trennungsunterhalt an,wie hoch derzeit der Betrag im Monat ist.
+Wenn Sie den monatlichen Betrag nicht genau sagen können, geben Sie bitte einen Schätzbetrag an.",,,dec,pekxx=22,,,,"Einkünfte/Nachehelicher Unterhalt, Trennungsunterhalt",50,,,,pek221,Numeric,,6,
+soep-test,soep-test-2003-ctest,pekxxx,181,6,"Geben Sie bitte für die Unterhaltszahlungen aus Unterhaltsvorschusskassen an,wie hoch derzeit der Betrag im Monat ist.
+Wenn Sie den monatlichen Betrag nicht genau sagen können, geben Sie bitte einen Schätzbetrag an.",,,dec,pekxx=18,,,,Einkünfte/Unterhaltszahlung aus Unterhaltsvorschusskassen,51,,,,pek181,Numeric,,6,
+soep-test,soep-test-2003-ctest,pekxxx,81,6,"Geben Sie bitte für BAföG, Stipendium, Berufsausbildungsbeihilfe an,wie hoch derzeit der Betrag im Monat ist.
+Wenn Sie den monatlichen Betrag nicht genau sagen können, geben Sie bitte einen Schätzbetrag an.",,,dec,pekxx=8,,,,"Einkünfte/BAföG. Stipendium, Berufsausbildungsbeihilfe",52,,,,pek081,Numeric,,6,
+soep-test,soep-test-2003-ctest,pekxxx,91,6,"Geben Sie bitte für den Wehrsold bei freiwilligem Wehrdienst bzw. die Aufwandsentschädigung für das Freiwillige soziale / ökologische Jahr oder den Bundesfreiwilligendienst an, wie hoch derzeit der Betrag im Monat ist.
+Wenn Sie den monatlichen Betrag nicht genau sagen können, geben Sie bitte einen Schätzbetrag an.",,,dec,pekxx=9,,,,Einkünfte/Wehrsold etc.,53,99,101,Q607 | PEK091 | Einkünfte/Wehrsold etc.,pek091,Numeric,,6,7
+soep-test,soep-test-2003-ctest,pekxxx,111,6,"Geben Sie bitte für die sonstige Unterstürzung von Personen, die nicht im Haushalt leben an, wie hoch derzeit der Betrag im Monat ist.
+Wenn Sie den monatlichen Betrag nicht genau sagen können, geben Sie bitte einen Schätzbetrag an.",,,dec,pekxx=11,,,,Einkünfte/Sonstige Unterstützung,54,,,,pek111,Numeric,,6,
+soep-test,soep-test-2003-ctest,pek,,7,"Und nun denken Sie bitte an das ganze letzte Jahr, also das Jahr 2012.
+Wir haben hier eine Art Kalender abgebildet.
+Links steht, was Sie im letzten Jahr gewesen sein können.
+Bitte gehen Sie die Liste durch und kreuzen Sie alle Monate an,
+in denen Sie zum Beispiel erwerbstätig waren, arbeitslos waren usw.
+
+Ich war ...","Bitte achten Sie darauf, dass für jeden Monat mindestens ein Kästchen angekreuzt sein muss!
+Bei Arbeitslosigkeit: auch wenn kürzer als ein Monat, bitte im entsprechenden Monat ankreuzen.",,txt,,,,,Kalender 2012,55,103,120,Q700 | PKAL XX | Kalender 2012,pkal,Matrix,,7,
+soep-test,soep-test-2003-ctest,pkal,,7,"Und nun denken Sie bitte an das ganze letzte Jahr, also das Jahr 2011.
+Wir haben hier eine Art Kalender abgebildet.
+Links steht, was Sie im letzten Jahr gewesen sein können.
+Bitte gehen Sie die Liste durch und kreuzen Sie alle Monate an,
+in denen Sie zum Beispiel erwerbstätig waren, arbeitslos waren, usw. .","Bitte achten Sie darauf, dass für jeden Monat mindestens ein Kästchen angekreuzt sein muss!
+Bei Arbeitslosigkeit: auch wenn kürzer als ein Monat, bitte im entsprechenden Monat ankreuzen.",,txt,,,,,Kalender 2012,56,,,,,,,7,
+soep-test,soep-test-2003-ctest,pkal,1,7,voll erwerbstätig (auch ABM oder SAM),,pkal,cat,,,,,Kalender 2012,57,,106,,pkal01,Multi coded,,7,
+soep-test,soep-test-2003-ctest,pkal,13,7,in Kurzarbeit,,pkal,cat,,,,,Kalender 2012,58,105,107,,pkal13,Multi coded,,7,
+soep-test,soep-test-2003-ctest,pkal,2,7,teilzeitbeschäftigt,,pkal,cat,,,,,Kalender 2012,59,106,108,,pkal02,Multi coded,,7,
+soep-test,soep-test-2003-ctest,pkal,12,7,in einem Mini-Job (bis 400 Euro),,pkal,cat,,,,,Kalender 2012,60,107,109,,pkal12,Multi coded,,7,
+soep-test,soep-test-2003-ctest,pkal,3,7,in betrieblicher Erstausbildung / Lehre,,pkal,cat,,,,,Kalender 2012,61,108,110,,pkal03,Multi coded,,7,
+soep-test,soep-test-2003-ctest,pkal,4,7,"in Fortbildung, Umschulung oder beruflicher Weiterbildung",,pkal,cat,,,,,Kalender 2012,62,109,111,,pkal04,Multi coded,,7,
+soep-test,soep-test-2003-ctest,pkal,5,7,arbeitslos gemeldet,,pkal,cat,,,,,Kalender 2012,63,110,112,,pkal05,Multi coded,,7,
+soep-test,soep-test-2003-ctest,pkal,6,7,in Rente / Pension oder Vorruhestand,,pkal,cat,,,,,Kalender 2012,64,111,113,,pkal06,Multi coded,,7,
+soep-test,soep-test-2003-ctest,pkal,7,7,im Mutterschutz / Erziehungsurlaub / Elternzeit,,pkal,cat,,,,,Kalender 2012,65,112,114,,pkal07,Multi coded,,7,
+soep-test,soep-test-2003-ctest,pkal,8,7,auf der Schule / Hochschule / Fachschule,,pkal,cat,,,,,Kalender 2012,66,113,115,,pkal08,Multi coded,,7,
+soep-test,soep-test-2003-ctest,pkal,9a,7,"Bitte geben Sie an, ob Sie im Jahr 2011 einen der folgenden Dienste abgeleistet haben. Zutreffendes bitte ankreuzen",,pkal09a,cat,,,,,Kalender 2012,67,,,,pkal09A,Multi coded,,7,
+soep-test,soep-test-2003-ctest,pkal,9,7,"Bitte geben Sie nun an, in welchen Monaten des Jahres 2011 Sie diesen Dienst abgeleistet haben. ",,pkal,cat,"pkal:9a=1,2,3,4",,,,Kalender 2012,68,,,,pkal09,Multi coded,,7,
+soep-test,soep-test-2003-ctest,pkal,10,7,Hausfrau / Hausmann,,pkal,cat,,,,,Kalender 2012,69,117,119,,pkal10,Multi coded,,7,
+soep-test,soep-test-2003-ctest,pkal,so,7,Welcher sonstigen Tätigkeit sind Sie im Jahr 2011 nachgegangen. ,,,chr,,,,,Kalender 2012,70,,,,pkalso,Open,,7,
+soep-test,soep-test-2003-ctest,pkal,11,7,"Sonstiges, und zwar",,pkal,txt,,,,,Kalender 2012,71,118,,,pkal11,Multi coded,,7,
+soep-test,soep-test-2003-ctest,psor,,8,Wie ist es mit den folgenden Gebieten - machen Sie sich da Sorgen?,,,txt,,,,,Sorgen,72,104,135,Q800 | PSOR XX | Sorgen,psor,Matrix,,8,
+soep-test,soep-test-2003-ctest,psor,1,8,Um die allgemeine wirtschaftliche Entwicklung,,psor,cat,,,,,Sorgen,73,,122,,psor01,,,8,
+soep-test,soep-test-2003-ctest,psor,2,8,Um Ihre eigene wirtschaftliche Situation,,psor,cat,,,,,Sorgen,74,121,123,,psor02,,,8,
+soep-test,soep-test-2003-ctest,psor,13,8,Um die Stabilität der Finanzmärkte,,psor,cat,,,,,Sorgen,75,122,124,,psor13,,,8,
+soep-test,soep-test-2003-ctest,psor,3,8,Um Ihre Gesundheit,,psor,cat,,,,,Sorgen,76,124,126,,psor03,,,8,
+soep-test,soep-test-2003-ctest,psor,4,8,Um den Schutz der Umwelt,,psor,cat,,,,,Sorgen,77,125,127,,psor04,,,8,
+soep-test,soep-test-2003-ctest,psor,14,8,Um die Folgen des Klimawandels,,psor,cat,,,,,Sorgen,78,126,128,,psor14,,,8,
+soep-test,soep-test-2003-ctest,psor,5,8,Um die Erhaltung des Friedens,,psor,cat,,,,,Sorgen,79,127,129,,psor05,,,8,
+soep-test,soep-test-2003-ctest,psor,12,8,Über den globalen Terrorismus,,psor,cat,,,,,Sorgen,80,128,130,,psor12,,,8,
+soep-test,soep-test-2003-ctest,psor,6,8,Über die Entwicklung der Kriminalität in Deutschland,,psor,cat,,,,,Sorgen,81,129,131,,psor06,,,8,
+soep-test,soep-test-2003-ctest,psor,8,8,Über die Zuwanderung nach Deutschland,,psor,cat,,,,,Sorgen,82,130,132,,psor08,,,8,
+soep-test,soep-test-2003-ctest,psor,9,8,Über Ausländerfeindlichkeit und Fremdenhass in Deutschland,,psor,cat,,,,,Sorgen,83,131,133,,psor09,,,8,
+soep-test,soep-test-2003-ctest,psor,15,8,Um die Stabilität des Euros,,psor,cat,,,,,Sorgen,84,132,134,,psor15,,,8,
+soep-test,soep-test-2003-ctest,psor,10,8,Nur wenn Sie erwerbstätig sind: Um die Sicherheit Ihres Arbeitsplatzes,,psor,cat,,,,,Sorgen,85,133,,,psor10,,,8,
+soep-test,soep-test-2003-ctest,psor,so,8,Oder was sonst macht Ihnen Sorgen?,,,chr,,,,,Sonstige Sorgen,86,,,,psorso,,,8,
+soep-test,soep-test-2003-ctest,paz,10,9,"Und wie viel beträgt im Durchschnitt Ihre tatsächliche Arbeitszeit pro Woche
+einschließlich eventueller Überstunden?",,,dec,,paz:10>30@palt,,,Arbeitszeiten mit Überstunden,87,120,136,Q900 | PAZ10 | Arbeitszeiten mit Überstunden,paz10,Numeric,,9,
+soep-test,soep-test-2003-ctest,paz,11,10,Ist das eine geringfügige Beschäftigung nach der 450- bzw. 850-Euro-Regelung (Mini- bzw. Midi-Job)?,,paz11,cat,paz:10<30,,,,Mini/ Midijob,88,135,137,Q1000 | PAZ11 | Mini/ Midijob,paz11,Single coded,,10,
+soep-test,soep-test-2003-ctest,paz,12,11,Ist das eine Teilzeitbeschäftigung nach dem Bundeselterngeld- und Elternzeitgesetz (BEEG)?,,paz12,cat,,,,,Teilzeit/ Elternzeit,89,136,138,Q1100 | PAZ12 | Teilzeit/ Elternzeit,paz12,Single coded,,11,
+soep-test,soep-test-2003-ctest,palt,1,12,Nehmen Sie zur Zeit eine der gesetzlichen Regelungen zur Altersteilzeit wahr?,,palt1,cat,paz:10>30,,,,Altersteilzeit Regelungen,90,137,139,Q1200 | PALT1 | Altersteilzeit Regelungen,palt1,Single coded,,12,
+soep-test,soep-test-2003-ctest,palt,2,12,Und zwar:,,palt2,cat,palt:1=1,,,,Altersteilzeit Art,91,,,,palt2,,,12,
+soep-test,soep-test-2003-ctest,pnerw,,13,"Wie hoch müsste der Nettoverdienst mindestens sein, damit Sie eine angebotene Stelle annehmen würden?",,,dec,,,,,Höhe Nettoverdienst,92,138,140,Q1300 | PNERW XX | Höhe Nettoverdienst,pnerw,Single coded,,13,
+soep-test,soep-test-2003-ctest,pnerw,7,13,Euro im Monat,,,int,,,,,Höhe Nettoverdienst,93,,,,pnerw07,,,13,
+soep-test,soep-test-2003-ctest,pnerw,8,13,"Nicht zu sagen, es kommt darauf an",,,cat,,pnerw:8=1@15,,,Höhe Nettoverdienst,94,,,,pnerw08,,,13,
+soep-test,soep-test-2003-ctest,pnerw,14,14,"Und was meinen Sie, wie viele Stunden pro Woche 
+müssten Sie für diesen Nettoverdienst arbeiten?",,,int,pnerw:7>0,,,,Nettoverdienst/Stunden die Woche,95,139,141,Q1400 | PNERW14 | Nettoverdienst/Stunden die Woche,pnerw14,Numeric,,14,
+soep-test,soep-test-2003-ctest,pnerw,9,15,"Wenn man Ihnen [u]jetzt[/u] eine passende Stelle anbieten würde, könnten 
+Sie dann innerhalb der nächsten zwei Wochen anfangen zu arbeiten?",,pnerw09,cat,,,,,Anfang bei Stellenangebot,96,140,142,Q1500 | PNERW09 | Anfang bei Stellenangebot,pnerw09,Single coded,,15,
+soep-test,soep-test-2003-ctest,lvm,,16,Leben Ihr Vater und Ihre Mutter hier im Haushalt?,,lvm,cat,,,,,Eltern im Haushalt,97,141,143,Q1600 | LVM | Eltern im Haushalt,lvm,Single coded,,16,
+soep-test,soep-test-2003-ctest,lvdummy,,17,Lebt Ihr Vater noch?,,lv01dummy,cat,"lvm=3,4",,true,,Vater (lebendig),98,142,144,Q1701 | LV01 Dummy | Vater (lebendig),lv01dummy,Single coded,,17,1
+soep-test,soep-test-2003-ctest,lv,1,17,Wo lebt Ihr Vater?,,lv01,cat,lv01dummy=1,,,,Wohnort Vater,99,143,145,Q1702 | LV01 | Wohnort Vater,lv01,Single coded,,17,2
+soep-test,soep-test-2003-ctest,lv,2,17,"Ist verstorben, und zwar im Jahr:",,,cat,lv01dummy=2,,,,Vater Jahr Verstorben,100,144,146,Q1703 | LV02 | Vater Jahr Verstorben,lv02,Numeric,,17,3
+soep-test,soep-test-2003-ctest,lmdummy,,17,Lebt Ihre Mutter noch?,,lm01dummy,cat,"lvm=2,4",,true,,Mutter (lebendig),101,145,147,Q1704 | LM01 Dummy | Mutter (lebendig),lm01dummy,Single coded,,17,4
+soep-test,soep-test-2003-ctest,lm,1,17,Wo lebt Ihre Mutter?,,lm01,cat,lm01dummy=1,,,,Wohnort Mutter,102,146,148,Q1705 | LM01 | Wohnort Mutter,lm01,Single coded,,17,5
+soep-test,soep-test-2003-ctest,lm,2,17,"Ist verstorben, und zwar im Jahr:",,,cat,lm01dummy=2,,,,Mutter Jahr Verstorben,103,147,149,Q1706 | LM02 | Mutter Jahr Verstorben,lm02,Numeric,,17,6
+soep-test,soep-test-2003-ctest,lk,,18,Haben oder hatten Sie Kinder?,Gemeint sind leibliche oder adoptierte Kinder (nicht Pflege- oder Stiefkinder).,,txt,,,true,,Dummy Kinder,104,,,,lkdummy,Single Coded,,18,
+soep-test,soep-test-2003-ctest,lk,2,18,Nein hatte nie Kinder,,,bin,,,,,Kinder,105,148,150,Q1801 | LKNO | Kinder,lkno,Single coded,,18,
+soep-test,soep-test-2003-ctest,lk,3,18,"Ja, und zwar …[Anzahl]",,,int,,,,,Anzahl Kinder,106,149,151,Q1802 | LKIND | Anzahl Kinder,lkind,Numeric,,18,
+soep-test,soep-test-2003-ctest,lk,4,18,Bitte geben Sie für jedes dieser Kinder das Geburtsjahr an. Beginnen Sie mit dem Ältesten:,,,int,,,,,Geburtsjahr Kinder,107,150,152,Q1803 | LKGEB ABCD | Geburtsjahr Kinder,lkgebabcd,Numeric,,18,3
+soep-test,soep-test-2003-ctest,lk,5,18,Bitte geben Sie für jedes dieser Kinder das Geschlecht an. Bitte beginnen Sie mit dem Ältesten:,,lksexabcd,cat,,,,,Geschlecht Kinder,108,151,154,Q1804 | LKSEX ABCD | Geschlecht Kinder,lksexabcd,Matrix,,18,4
+soep-test,soep-test-2003-ctest,lk,6,18,Bitte geben Sie für jedes dieser Kinder den heutigen Wohnort an. Bitte beginnen Sie mit dem Ältesten:,,lkwoabcd,cat,,,,,Wohnort Kinder,109,152,,Q1805 | LKWO ABCD | Wohnort Kinder,lkwoabcd,Matrix,,18,5
