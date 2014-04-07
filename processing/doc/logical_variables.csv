@@ -47,7 +47,7 @@ soep-test,al,al11,lab071,al-raw,lab071,,,,,,
 soep-test,al,al12,lab081,al-raw,lab081,,,,,,
 soep-test,al,al13,lkno,al-raw,lkno,,,,,,
 soep-test,al,al14,lkind,al-raw,lkind,,,,,,
-soep-test,al,ahhnr,ahhnr,,,,,,,h,TRUE
+soep-test,al,ahhnr,ahhnr,al-raw,ahhnr,,,,,h,TRUE
 soep-test,ap-raw,psex,psex,,,,,,,,
 soep-test,ap-raw,ppgeb,ppgeb,,,,,,,,
 soep-test,ap-raw,ppnat,ppnat,,,,,,,,
@@ -68,7 +68,7 @@ soep-test,ap-raw,pfs101,pfs101,,,,,,,,
 soep-test,ap-raw,pzule1,pzule1,,,,,,,,
 soep-test,ap-raw,pzuf01,pzuf01,,,,,,,,
 soep-test,ap-raw,pzuf02,pzuf02,,,,,,,,
-soep-test,ap-raw,pzuf03,pfzuf03,,,,,,,,
+soep-test,ap-raw,pzuf03,pzuf03,,,,,,,,
 soep-test,ap-raw,pzuf04,pzuf04,,,,,,,,
 soep-test,ap-raw,pzuf05,pzuf05,,,,,,,,
 soep-test,ap-raw,pzuf06,pzuf06,,,,,,,,
@@ -104,7 +104,7 @@ soep-test,ap,ap17,pfs101,ap-raw,pfs101,,,,,,
 soep-test,ap,ap18,pzule1,ap-raw,pzule1,,,,,,
 soep-test,ap,ap19,pzuf01,ap-raw,pzuf01,,,,,,
 soep-test,ap,ap20,pzuf02,ap-raw,pzuf02,,,,,,
-soep-test,ap,ap21,pfzuf03,ap-raw,pfzuf03,,,,,,
+soep-test,ap,ap21,pzuf03,ap-raw,pzuf03,,,,,,
 soep-test,ap,ap22,pzuf04,ap-raw,pzuf04,,,,,,
 soep-test,ap,ap23,pzuf05,ap-raw,pzuf05,,,,,,
 soep-test,ap,ap24,pzuf06,ap-raw,pzuf06,,,,,,
@@ -140,7 +140,7 @@ soep-test,bh,bh07,hvj,bh-raw,hvj,,,,,,
 soep-test,bh,bh08,hwohn01,bh-raw,hwohn01,,,,,,
 soep-test,bh,bh09,hm04,bh-raw,hm04,,,,,,
 soep-test,bh,bh10,hnetto,bh-raw,hnetto,,,,,,
-soep-test,bl-raw,bhhnr,bhhnr,,,,,,,h,TRUE
+soep-test,bl-raw,bhhnr,bhhnr,bh-raw,bhhnr,,,,,h,TRUE
 soep-test,bl-raw,lsta1,lsta1,,,,,,,,
 soep-test,bl-raw,lzug01,lzug01,,,,,,,,
 soep-test,bl-raw,lzug02,lzug02,,,,,,,,
@@ -169,7 +169,7 @@ soep-test,bl,bl11,lab071,bl-raw,lab071,,,,,,
 soep-test,bl,bl12,lab081,bl-raw,lab081,,,,,,
 soep-test,bl,bl13,lkno,bl-raw,lkno,,,,,,
 soep-test,bl,bl14,lkind,bl-raw,lkind,,,,,,
-soep-test,bl,bhhnr,bhhnr,,,,,,,h,TRUE
+soep-test,bl,bhhnr,bhhnr,bl-raw,bhhnr,,,,,h,TRUE
 soep-test,bp-raw,psex,psex,,,,,,,,
 soep-test,bp-raw,ppgeb,ppgeb,,,,,,,,
 soep-test,bp-raw,ppnat,ppnat,,,,,,,,
@@ -190,7 +190,7 @@ soep-test,bp-raw,pfs101,pfs101,,,,,,,,
 soep-test,bp-raw,pzule1,pzule1,,,,,,,,
 soep-test,bp-raw,pzuf01,pzuf01,,,,,,,,
 soep-test,bp-raw,pzuf02,pzuf02,,,,,,,,
-soep-test,bp-raw,pzuf03,pfzuf03,,,,,,,,
+soep-test,bp-raw,pzuf03,pzuf03,,,,,,,,
 soep-test,bp-raw,pzuf04,pzuf04,,,,,,,,
 soep-test,bp-raw,pzuf05,pzuf05,,,,,,,,
 soep-test,bp-raw,pzuf06,pzuf06,,,,,,,,
@@ -226,7 +226,7 @@ soep-test,bp,bp17,pfs101,bp-raw,pfs101,,,,,,
 soep-test,bp,bp18,pzule1,bp-raw,pzule1,,,,,,
 soep-test,bp,bp19,pzuf01,bp-raw,pzuf01,,,,,,
 soep-test,bp,bp20,pzuf02,bp-raw,pzuf02,,,,,,
-soep-test,bp,bp21,pfzuf03,bp-raw,pfzuf03,,,,,,
+soep-test,bp,bp21,pzuf03,bp-raw,pzuf03,,,,,,
 soep-test,bp,bp22,pzuf04,bp-raw,pzuf04,,,,,,
 soep-test,bp,bp23,pzuf05,bp-raw,pzuf05,,,,,,
 soep-test,bp,bp24,pzuf06,bp-raw,pzuf06,,,,,,
@@ -262,7 +262,7 @@ soep-test,ch,ch07,hvj,ch-raw,hvj,,,,,,
 soep-test,ch,ch08,hwohn01,ch-raw,hwohn01,,,,,,
 soep-test,ch,ch09,hm04,ch-raw,hm04,,,,,,
 soep-test,ch,ch10,hnetto,ch-raw,hnetto,,,,,,
-soep-test,cl-raw,chhnr,chhnr,,,,,,,h,TRUE
+soep-test,cl-raw,chhnr,chhnr,ch-raw,chnnr,,,,,h,TRUE
 soep-test,cl-raw,lsta1,lsta1,,,,,,,,
 soep-test,cl-raw,lzug01,lzug01,,,,,,,,
 soep-test,cl-raw,lzug02,lzug02,,,,,,,,
@@ -291,7 +291,7 @@ soep-test,cl,cl11,lab071,cl-raw,lab071,,,,,,
 soep-test,cl,cl12,lab081,cl-raw,lab081,,,,,,
 soep-test,cl,cl13,lkno,cl-raw,lkno,,,,,,
 soep-test,cl,cl14,lkind,cl-raw,lkind,,,,,,
-soep-test,cl,chhnr,chhnr,,,,,,,h,TRUE
+soep-test,cl,chhnr,chhnr,cl-raw,chhnr,,,,,h,TRUE
 soep-test,cp-raw,psex,psex,,,,,,,,
 soep-test,cp-raw,ppgeb,ppgeb,,,,,,,,
 soep-test,cp-raw,ppnat,ppnat,,,,,,,,
@@ -312,7 +312,7 @@ soep-test,cp-raw,pfs101,pfs101,,,,,,,,
 soep-test,cp-raw,pzule1,pzule1,,,,,,,,
 soep-test,cp-raw,pzuf01,pzuf01,,,,,,,,
 soep-test,cp-raw,pzuf02,pzuf02,,,,,,,,
-soep-test,cp-raw,pzuf03,pfzuf03,,,,,,,,
+soep-test,cp-raw,pzuf03,pzuf03,,,,,,,,
 soep-test,cp-raw,pzuf04,pzuf04,,,,,,,,
 soep-test,cp-raw,pzuf05,pzuf05,,,,,,,,
 soep-test,cp-raw,pzuf06,pzuf06,,,,,,,,
@@ -345,10 +345,10 @@ soep-test,cp,cp14,pfs0911,cp-raw,pfs0911,,,,,,
 soep-test,cp,cp15,pfs121,cp-raw,pfs121,,,,,,
 soep-test,cp,cp16,pfs131,cp-raw,pfs131,,,,,,
 soep-test,cp,cp17,pfs101,cp-raw,pfs101,,,,,,
-soep-test,cp,cp18,pzule1,,,,,,,,
+soep-test,cp,cp18,pzule1,cp-raw,pzule1,,,,,,
 soep-test,cp,cp19,pzuf01,cp-raw,pzuf01,,,,,,
 soep-test,cp,cp20,pzuf02,cp-raw,pzuf02,,,,,,
-soep-test,cp,cp21,pfzuf03,cp-raw,pfzuf03,,,,,,
+soep-test,cp,cp21,pzuf03,cp-raw,pzuf03,,,,,,
 soep-test,cp,cp22,pzuf04,cp-raw,pzuf04,,,,,,
 soep-test,cp,cp23,pzuf05,cp-raw,pzuf05,,,,,,
 soep-test,cp,cp24,pzuf06,cp-raw,pzuf06,,,,,,
@@ -364,7 +364,6 @@ soep-test,cp,cp33,ppol1,cp-raw,ppol1,,,,,,
 soep-test,cp,cp34,ppol3,cp-raw,ppol3,,,,,,
 soep-test,cp,cp35,pgr,cp-raw,pgr,,,,,,
 soep-test,cp,cp36,pkilo,cp-raw,pkilo,,,,,,
-soep-test,cp,cp37,bmi,,,,,,,,
 soep-test,ahgen,ah11,averageinc,,,,,,2,,
 soep-test,ahgen,ah12,hhmitglieder,,,,,,2,,
 soep-test,apgen,bmi,BMI,,,,short description,long description of BMI,2,,
@@ -391,17 +390,13 @@ soep-test,cl-raw,persnr,persnr,,,TRUE,,,,p,TRUE
 soep-test,cp-raw,chhnr,chhnr,,,,,,,h,TRUE
 soep-test,cp-raw,persnr,persnr,,,TRUE,,,,p,TRUE
 soep-test,ah,ahhnr,ahhnr,ah-raw,ahhnr,TRUE,,,,h,TRUE
-soep-test,ah,persnr,persnr,ah-raw,persnr,,,,,p,TRUE
 soep-test,al,persnr,persnr,al-raw,persnr,TRUE,,,,p,TRUE
 soep-test,ap,ahhnr,ahhnr,ap-raw,ahhnr,,,,,h,TRUE
-soep-test,ap,persnr,persnr,ap-raw,persnr,TRUE,,,,p,TRUE
 soep-test,bh,bhhnr,bhhnr,bh-raw,bhhnr,TRUE,,,,h,TRUE
-soep-test,bh,persnr,persnr,bh-raw,persnr,,,,,p,TRUE
 soep-test,bl,persnr,persnr,bl-raw,persnr,TRUE,,,,p,TRUE
 soep-test,bp,bhhnr,bhhnr,bp-raw,bhhnr,,,,,h,TRUE
 soep-test,bp,persnr,persnr,bp-raw,persnr,TRUE,,,,p,TRUE
 soep-test,ch,chhnr,chhnr,ch-raw,chhnr,TRUE,,,,h,TRUE
-soep-test,ch,persnr,persnr,ch-raw,persnr,,,,,p,TRUE
 soep-test,cl,persnr,persnr,cl-raw,persnr,TRUE,,,,p,TRUE
 soep-test,cp,chhnr,chhnr,cp-raw,chhnr,,,,,h,TRUE
 soep-test,cp,persnr,persnr,cp-raw,persnr,TRUE,,,,p,TRUE
@@ -634,7 +629,7 @@ soep-test,pl,pfs101,pfs101,P-raw,pfs101,,,,,,
 soep-test,pl,pzule1,pzule1,P-raw,pzule1,,,,,,
 soep-test,pl,pzuf01,pzuf01,P-raw,pzuf01,,,,,,
 soep-test,pl,pzuf02,pzuf02,P-raw,pzuf02,,,,,,
-soep-test,pl,pfzuf03,pfzuf03,P-raw,pfzuf03,,,,,,
+soep-test,pl,pzuf03,pzuf03,P-raw,pzuf03,,,,,,
 soep-test,pl,pzuf04,pzuf04,P-raw,pzuf04,,,,,,
 soep-test,pl,pzuf05,pzuf05,P-raw,pzuf05,,,,,,
 soep-test,pl,pzuf06,pzuf06,P-raw,pzuf06,,,,,,
