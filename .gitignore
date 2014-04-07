@@ -1,3 +1,7 @@
 .Rhistory
 *.swp
 
+processing/out/*
+!processing/out/.gitkeep
+processing/tmp/*
+!processing/tmp/.gitkeep
