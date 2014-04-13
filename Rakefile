@@ -1,3 +1,4 @@
+desc "Run all tasks"
 task all: [:doc, :r2ddi, :quest]
 
 desc "Copy CSV documentation"
