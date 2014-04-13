@@ -16,9 +16,9 @@
       <sumStat type="Min.">1</sumStat>
       <sumStat type="1st Qu.">3.75</sumStat>
       <sumStat type="Median">6.5</sumStat>
-      <sumStat type="Mean">22.25</sumStat>
+      <sumStat type="Mean">6.5</sumStat>
       <sumStat type="3rd Qu.">9.25</sumStat>
-      <sumStat type="Max.">201</sumStat>
+      <sumStat type="Max.">12</sumStat>
       <sumStat type="valid">12</sumStat>
       <sumStat type="invalid">0</sumStat>
     </var>
@@ -27,9 +27,9 @@
       <sumStat type="Min.">1</sumStat>
       <sumStat type="1st Qu.">3.75</sumStat>
       <sumStat type="Median">6.5</sumStat>
-      <sumStat type="Mean">22.25</sumStat>
+      <sumStat type="Mean">6.5</sumStat>
       <sumStat type="3rd Qu.">9.25</sumStat>
-      <sumStat type="Max.">201</sumStat>
+      <sumStat type="Max.">12</sumStat>
       <sumStat type="valid">12</sumStat>
       <sumStat type="invalid">0</sumStat>
     </var>
