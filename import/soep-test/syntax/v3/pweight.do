@@ -1,4 +1,4 @@
-/* START pweight */
+/* START_GEN pweight CODE */
 use data/ap.dta, clear
 bysort ap01: gen sex = _N
 gen sexequal = _N/2
@@ -31,4 +31,4 @@ save tmp/weight12.dta, replace
 use tmp/weight12.dta, clear
 merge m:m PERSNR using tmp/weight3.dta, nogenerate
 save output/pweight.dta, replace
-/* END pweight */
+/* END_GEN pweight */

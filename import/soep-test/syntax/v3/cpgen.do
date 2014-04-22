@@ -1,12 +1,12 @@
-/* START bmi */
+/* START_GEN bmi CODE */
 use data/cp.dta, clear
 gen cp37 = cp36/(cp35/100)^2
 label variable cp37 "BMI numeric"
 keep PERSNR cp37
 save tmp/cp37.dta, replace
-/* END bmi */ 
+/* END_GEN bmi */ 
 
-/* START cp37k */
+/* START_GEN cp37k CODE */
 use tmp/cp37.dta, clear
 gen  cp37k = . 
 replace cp37k = 1 if cp37 < 15
@@ -22,4 +22,4 @@ label variable cp37k "BMI categorical"
 lab def cp37k 1 "Very severely underweight" 2 "Severely underweight" 3 "Underweight" 4 "Normal(healthy weight)" 5 "Overweight" 6 "Obese Class I (Moderately obese)" 7 "Obese Class II (Severely obese" 8 "Obese Class III (Very severely obese)" 
 label values cp37k cp37k
 save output/cpgen.dta, replace
-/* END cp37k */
+/* END_GEN cp37k */

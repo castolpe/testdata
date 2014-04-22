@@ -1,4 +1,4 @@
-/* START hweight */
+/* START_GEN hweight CODE */
 use data/ah.dta, clear
 merge 1:1 AHHNR using output/ahgen.dta, nogenerate
 gen  hdist = . 
@@ -63,4 +63,4 @@ merge 1:1 HHNR using tmp/hweight3.dta, nogenerate
 keep HHNR hweight1 hweight2 hweight3
 save output/hweight.dta, replace
 
-/* END hweight */
+/* END_GEN hweight */

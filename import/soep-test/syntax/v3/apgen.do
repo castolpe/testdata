@@ -1,12 +1,14 @@
-/* START bmi */
+/* START_GEN bmi COMMENT */
+/* This one calculates the BMI */
+/* START_GEN bmi CODE */
 use data/ap.dta, clear
 gen ap37 = ap36/(ap35/100)^2
 label variable ap37 "BMI numeric"
 keep PERSNR ap37
 save tmp/ap37.dta, replace
-/* END bmi */
+/* END_GEN bmi */
 
-/* START ap37k */
+/* START_GEN ap37k CODE */
 use tmp/ap37.dta, clear
 gen  ap37k = . 
 replace ap37k = 1 if ap37 < 15
@@ -22,4 +24,4 @@ label variable ap37k "BMI categorical"
 lab def ap37k 1 "Very severely underweight" 2 "Severely underweight" 3 "Underweight" 4 "Normal(healthy weight)" 5 "Overweight" 6 "Obese Class I (Moderately obese)" 7 "Obese Class II (Severely obese" 8 "Obese Class III (Very severely obese)" 
 label values ap37k ap37k
 save output/apgen.dta, replace
-/* END ap37k */
+/* END_GEN ap37k */
