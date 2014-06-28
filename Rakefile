@@ -11,8 +11,8 @@ task :r2ddi_test do
   system "cp -r r2ddi/soep-test/de/* non-utf8/"
   system "recode l1...utf8 r2ddi/soep-test/de/*"
   system "recode l1...utf8 r2ddi/soep-test/en/*"
-  system "cp -r r2ddi/soep-test/en/* import/soep-test/r2ddi/soep-test/v3/"
-  system "cp -r r2ddi/soep-test/de/* import/soep-test/r2ddi/soep-test/v3/de/"
+  system "cp -r r2ddi/soep-test/en/* import/soep-test/r2ddi/v3/"
+  system "cp -r r2ddi/soep-test/de/* import/soep-test/r2ddi/v3/de/"
 end
 
 task :r2ddi_testl do
@@ -20,12 +20,12 @@ task :r2ddi_testl do
   system "cp -r r2ddi/soep-testl/de/* non-utf8/"
   system "recode l1...utf8 r2ddi/soep-testl/de/*"
   system "recode l1...utf8 r2ddi/soep-testl/en/*"
-  system "cp -r r2ddi/soep-testl/en/* import/soep-testl/r2ddi/soep-testl/v3/"
-  system "cp -r r2ddi/soep-testl/de/* import/soep-testl/r2ddi/soep-testl/v3/de/"
+  system "cp -r r2ddi/soep-testl/en/* import/soep-testl/r2ddi/v3/"
+  system "cp -r r2ddi/soep-testl/de/* import/soep-testl/r2ddi/v3/de/"
 end
 
 desc "Run r2ddi"
-task r2ddi: [:r2ddi_test, :r2ddi_testl]
+multitask r2ddi: [:r2ddi_test, :r2ddi_testl]
 
 desc "Copy new questionnaire format"
 task :quest do
