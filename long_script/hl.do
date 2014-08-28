@@ -3,7 +3,7 @@ version 13
 
 *** create h-long-data
 
-use process\output1\de\ah.dta
+use dist\ah.dta
 
 gen wave = 2001
 lab var wave "Welle"
@@ -20,10 +20,10 @@ rename ah09 hmiete
 rename ah10 hnetto
 rename AHHNR HHNR
 
-save process\scripts2\meta\ah.dta, replace
+save temp\ah.dta, replace
 
 clear
-use process\output1\de\bh.dta
+use dist\bh.dta
 
 gen wave = 2002
 lab var wave "Welle"
@@ -40,10 +40,10 @@ rename bh09 hmiete
 rename bh10 hnetto
 rename BHHNR HHNR
 
-save process\scripts2\meta\bh.dta, replace
+save temp\bh.dta, replace
 
 clear
-use process\output1\de\ch.dta
+use dist\ch.dta
 
 gen wave = 2003
 lab var wave "Welle"
@@ -60,12 +60,12 @@ rename ch09 hmiete
 rename ch10 hnetto
 rename CHHNR HHNR
 
-save process\scripts2\meta\ch.dta, replace
+save temp\ch.dta, replace
 
-append using process\scripts2\meta\ah.dta process\scripts2\meta\bh.dta 
+append using temp\ah.dta temp\bh.dta 
 
 sort HHNR wave
 
-save process\output2\hl.dta, replace
+save long\hl.dta, replace
 
 
