@@ -1,23 +1,25 @@
-// BMI 
+global dist   "H:\clone\testdata2\dist\"
+*local p35 "ap35 bp35 cp35"
+*local p36 "ap36 bp36 cp36"
 
 clear
+version 13 
 
-use "data\03-long\de\pl_caro.dta", clear
-keep pgr pkilo PERSNR wave psex pgeb
-gen BMI = ((pkilo/pgr^2)*10000)
-lab var BMI "Body Mass Index"
-recode BMI (0/19.99 = 1) (20/24.99 = 2) (25/29.99 = 3)(30/50 = 4), generate(BMI_dummy) 
-lab var BMI_dummy "Body Mass Index_dummy"
+*** generate BMI in ap bp cp
 
-lab def BMI_label 1 "Untergewicht" 2 "Normalgewicht" 3 "Übergewicht" 4 "starkes Übergewicht"
-lab val BMI_dummy BMI_label
+foreach file in ap bp cp {
 
-save "data\03-long\de\pl_gen_caro.dta", replace
+	use ${dist}\`file'.dta
+	keep ap35 ap36 PERSNR 
+	gen BMI = ((ap35/ ap36^2)*10000)
+	lab var BMI "Body Mass Index"
+	recode BMI (0/19.99 = 1) (20/24.99 = 2) (25/29.99 = 3)(30/50 = 4), generate(BMI_dummy) 
+	lab var BMI_dummy "Body Mass Index_dummy"
 
+	lab def BMI_label 1 "Untergewicht" 2 "Normalgewicht" 3 "Übergewicht" 4 "starkes Übergewicht"
+	lab val BMI_dummy BMI_label
 
+	drop ap35 ap36 
+	save ${dist}\`file'gen.dta, replace
+} 
 
-
-
-
-
-//recode BMI (0/18 = 1) (19/24 = 2) (25/30 = 3)(31/50 = 4) if psex==1,(0/19 = 1) (20/24 = 2) (25/30 = 3)(31/50 = 4) if psex==2, 
