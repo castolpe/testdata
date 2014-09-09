@@ -26,12 +26,12 @@ library("foreign")
 }
 
 .write_script <- function(names1, names2, file1, file2, fileout){
-  if(lenght(names1) != length(names2)) {
+  if(length(names1) != length(names2)) {
     cat("[ERROR] Names do not match.")
-    return(nil)
+    return(NULL)
   }
   script <- paste("use", file1, ", clear \n", sep=" ")
-  for(i in seq(lenght(names1)))
+  for(i in seq(length(names1)))
   script <- paste(script, "rename", names1[i], names2[i], "\n", sep=" ")
   script <- paste(script, "saveold", file2, "\n", sep=" ")
   write(script, fileout)
