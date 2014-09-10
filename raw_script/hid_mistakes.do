@@ -9,12 +9,12 @@ version 13
 clear
 use raw\bh-raw.dta 
 recode HVJ (1=2)(2=1)
-save raw\bh-raw.dta, replace 
+saveold raw\bh-raw.dta, replace 
 
 clear
 use raw\ch-raw.dta 
 recode HVJ (1=2)(2=1)
-save raw\ch-raw.dta, replace 
+saveold raw\ch-raw.dta, replace 
 
 
 ** for P-dataset
@@ -22,13 +22,13 @@ save raw\ch-raw.dta, replace
 clear
 use raw\ap-raw.dta
 recode PSEX (1=2) (2=1)
-save raw\ap-raw.dta, replace 
+saveold raw\ap-raw.dta, replace 
 
 
 clear
 use raw\bp-raw.dta
 recode PSEX (1=2) (2=1)
-save raw\bp-raw.dta, replace 
+saveold raw\bp-raw.dta, replace 
 
 
 clear
@@ -65,7 +65,7 @@ replace PFS141 = 2 in 19
 replace PFS141 = 2 in 20
 
 
-save raw\cp-raw.dta, replace
+saveold raw\cp-raw.dta, replace
  
 /* Sonstige Fehler
 

@@ -31,7 +31,7 @@ replace HM04 = 0 in 14
 replace HNETTO = 6157 in 14
 replace CHHNR = 14 in 14
 
-saveold raw/ch.dta, replace 
+saveold raw/ch-raw.dta, replace 
 
 ** P-questionnaire
 
@@ -211,5 +211,5 @@ replace CHHNR = 14 in 24
 replace PERSNR = 1312 in 24
 
 
-saveold raw/cp.dta, replace 
+saveold raw/cp-raw.dta, replace 
 

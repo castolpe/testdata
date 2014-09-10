@@ -3,8 +3,6 @@ version 13
 
 // Fixnamen in SOEP-Namen umbenennen
 
-cd H:\clone\testdata2
-
 use "raw\ap-raw.dta" 
 
 rename	PSEX	ap01
