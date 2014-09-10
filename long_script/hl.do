@@ -20,7 +20,7 @@ rename ah09 hmiete
 rename ah10 hnetto
 rename AHHNR HHNR
 
-save temp\ah.dta, replace
+saveold temp\ah.dta, replace
 
 clear
 use dist\bh.dta
@@ -40,7 +40,7 @@ rename bh09 hmiete
 rename bh10 hnetto
 rename BHHNR HHNR
 
-save temp\bh.dta, replace
+saveold temp\bh.dta, replace
 
 clear
 use dist\ch.dta
