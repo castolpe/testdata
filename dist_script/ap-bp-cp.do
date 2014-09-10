@@ -43,10 +43,9 @@ rename	PPOL1	ap33
 rename	PPOL3	ap34
 rename	PGR		ap35
 rename	PKILO	ap36
-rename	AHHNR	AHHNR
-rename	PERSNR	PERSNR
 
-save "dist\ap.dta", replace
+
+saveold "dist\ap.dta", replace
 
 use "raw\bp-raw.dta" 
 
@@ -86,10 +85,9 @@ rename	PPOL1	bp33
 rename	PPOL3	bp34
 rename	PGR		bp35
 rename	PKILO	bp36
-rename	BHHNR	BHHNR
-rename	PERSNR	PERSNR
 
-save "dist\bp.dta", replace
+
+saveold "dist\bp.dta", replace
 
 use "raw\cp-raw.dta" 
 
@@ -130,8 +128,7 @@ rename	PPOL3	cp34
 rename	PGR		cp35
 rename	PKILO	cp36
 rename	PFS141	cp37
-rename	CHHNR	CHHNR
-rename	PERSNR	PERSNR
 
-save "dist\cp.dta", replace
+
+saveold "dist\cp.dta", replace
 
