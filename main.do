@@ -18,7 +18,7 @@ do raw_script\sample_b.do
 do dist_script\ah-bh-ch.do
 do dist_script\ap-bp-cp.do
 do dist_script\hgen.do
-*do dist_script\pgen.do
+do dist_script\pgen.do
 do dist_script\pweight.do
 do dist_script\hweight.do
 
