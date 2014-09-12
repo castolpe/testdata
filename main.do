@@ -6,8 +6,8 @@ version 13
 // Aufwuchssample B in Welle C hinzugefügt
 
 
-do raw_script\hid_mistakes.do
-do raw_script\sample_b.do
+*do raw_script\hid_mistakes.do
+*do raw_script\sample_b.do
 
 
 
@@ -21,6 +21,7 @@ do dist_script\hgen.do
 do dist_script\pgen.do
 do dist_script\pweight.do
 do dist_script\hweight.do
+do dist_script\al-bl-cl.do
 
 
 
