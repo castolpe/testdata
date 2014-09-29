@@ -1,0 +1,39 @@
+<codebook>
+  <dataDscr>
+    <var ID="pid" intrvl="numeric" files="pgenl">
+      <labl>Unveraenderliche Personennummer</labl>
+      <sumStat type="Min.">1</sumStat>
+      <sumStat type="1st Qu.">132</sumStat>
+      <sumStat type="Median">802</sumStat>
+      <sumStat type="Mean">1855</sumStat>
+      <sumStat type="3rd Qu.">2910</sumStat>
+      <sumStat type="Max.">9201</sumStat>
+      <sumStat type="valid">61</sumStat>
+      <sumStat type="invalid">0</sumStat>
+    </var>
+    <var ID="BMI" intrvl="numeric" files="pgenl">
+      <labl>Body Mass Index</labl>
+      <sumStat type="Min.">19.03</sumStat>
+      <sumStat type="1st Qu.">21.2</sumStat>
+      <sumStat type="Median">22.52</sumStat>
+      <sumStat type="Mean">22.77</sumStat>
+      <sumStat type="3rd Qu.">24.38</sumStat>
+      <sumStat type="Max.">27.89</sumStat>
+      <sumStat type="NA's">3</sumStat>
+      <sumStat type="valid">58</sumStat>
+      <sumStat type="invalid">3</sumStat>
+    </var>
+    <var ID="year" intrvl="numeric" files="pgenl">
+      <labl>Welle</labl>
+      <sumStat type="Min.">2001</sumStat>
+      <sumStat type="1st Qu.">2001</sumStat>
+      <sumStat type="Median">2002</sumStat>
+      <sumStat type="Mean">2002</sumStat>
+      <sumStat type="3rd Qu.">2003</sumStat>
+      <sumStat type="Max.">2003</sumStat>
+      <sumStat type="valid">61</sumStat>
+      <sumStat type="invalid">0</sumStat>
+    </var>
+  </dataDscr>
+  <fileDscr ID="pgenl"/>
+</codebook>
