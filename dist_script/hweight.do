@@ -1,6 +1,5 @@
-clear 
+clear
 version 13
-
 
 /* START hweight */
 use dist/ah.dta, clear
