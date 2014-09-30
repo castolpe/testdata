@@ -2,31 +2,27 @@ clear
 version 13
 
 
-// Mögliche Fehler werden zur Simulation eingebaut
-// Aufwuchssample B in Welle C hinzugefügt
+// raw - Aufwuchssample B + Fehler in Rohdaten eingebaut
 
-
-*do raw_script\hid_mistakes.do
 *do raw_script\sample_b.do
+*do raw_script\hid_mistakes.do
 
+STOP
 
-
-// Fixnamen in SOEP-Namen umbenennen
-// BMI-Datensatz generieren
-
+// dist - Fixnamen in SOEP-Namen ändern + Generierungen + Gewichte
 
 do dist_script\ah-bh-ch.do
 do dist_script\ap-bp-cp.do
+do dist_script\al-bl-cl.do
 do dist_script\hgen.do
-do dist_script\pgen.do
+do dist_script\pgen.do 
 do dist_script\pweight.do
 do dist_script\hweight.do
-do dist_script\al-bl-cl.do
 
 
+STOP
 
-// Long-Datensatz
-
+// long - Long-Datensatz
 
 do long_script\hl.do
 do long_script\pl.do
