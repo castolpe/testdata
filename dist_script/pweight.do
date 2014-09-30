@@ -33,5 +33,5 @@ merge m:m PERSNR using temp/weight2.dta, nogenerate
 saveold temp/weight12.dta, replace
 use temp/weight12.dta, clear
 merge m:m PERSNR using temp/weight3.dta, nogenerate
-save dist/pweight.dta, replace
+saveold dist/pweight.dta, replace
 /* END pweight */
