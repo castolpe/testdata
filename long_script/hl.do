@@ -60,12 +60,12 @@ rename ch09 hmiete
 rename ch10 hnetto
 rename CHHNR HHNR
 
-save temp\ch.dta, replace
+saveold temp\ch.dta, replace
 
 append using temp\ah.dta temp\bh.dta 
 
 sort HHNR wave
 
-save long\hl.dta, replace
+saveold long\hl.dta, replace
 
 

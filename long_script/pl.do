@@ -92,7 +92,7 @@ rename bp35 pgr
 rename bp36 pkilo
 rename BHHNR HHNR
 
-save temp\bp.dta, replace
+saveold temp\bp.dta, replace
 
 clear
 use dist\cp.dta
@@ -136,13 +136,14 @@ rename cp33 ppoli
 rename cp34 ppart
 rename cp35 pgr
 rename cp36 pkilo
+rename cp37 pfv18
 rename CHHNR HHNR
 
-save temp\cp.dta, replace
+saveold temp\cp.dta, replace
 
 append using temp\ap.dta temp\bp.dta
 
 sort HHNR PERSNR wave
 
-save long\pl.dta, replace
+saveold long\pl.dta, replace
 
