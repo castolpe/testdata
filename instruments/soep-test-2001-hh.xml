@@ -354,8 +354,8 @@ schon in dieser Wohnung gelebt?</LanguageString>
 <QuestionMod3>1</QuestionMod3>
 <OdinRouting></OdinRouting>
 <DimensionsRouting></DimensionsRouting>
-<WordQuestionHeader>Q5 | HWOHN08 | Wohngegend</WordQuestionHeader>
-<VariableName>HWOHN08</VariableName>
+<WordQuestionHeader>Q5 | HWOHN01 | Wohngegend</WordQuestionHeader>
+<VariableName>HWOHN01</VariableName>
 <NotBack>False</NotBack>
 <AnswerText></AnswerText>
 <QuestionType>Single coded</QuestionType>
@@ -664,7 +664,7 @@ Falls nicht genau bekannt: Bitte schätzen Sie den monatlichen Betrag</LanguageS
 <Organization>TNS</Organization>
 <KeyWords />
 <DateCreated>13-10-2013 10:27:38</DateCreated>
-<DateModified>28-10-2013</DateModified>
+<DateModified>9-10-2014</DateModified>
 <Header><LanguageStrings><LanguageString>
 <Language /><TranslationStatus />
 </LanguageString></LanguageStrings></Header>

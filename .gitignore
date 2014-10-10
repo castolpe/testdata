@@ -1,0 +1,5 @@
+dist/*.dta
+long/*.dta
+temp/*.dta
+check/*
+

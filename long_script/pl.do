@@ -3,7 +3,7 @@ version 13
 
 *** create p-long-data
 
-use process\output1\de\ap.dta
+use dist\ap.dta
 
 gen wave = 2001
 lab var wave "Welle"
@@ -46,10 +46,10 @@ rename ap35 pgr
 rename ap36 pkilo
 rename AHHNR HHNR
 
-save process\scripts2\meta\ap.dta, replace
+saveold temp\ap.dta, replace
 
 clear
-use process\output1\de\bp.dta
+use dist\bp.dta
 
 gen wave = 2002
 lab var wave "Welle"
@@ -92,10 +92,10 @@ rename bp35 pgr
 rename bp36 pkilo
 rename BHHNR HHNR
 
-save process\scripts2\meta\bp.dta, replace
+saveold temp\bp.dta, replace
 
 clear
-use process\output1\de\cp.dta
+use dist\cp.dta
 
 gen wave = 2003
 lab var wave "Welle" 
@@ -136,13 +136,14 @@ rename cp33 ppoli
 rename cp34 ppart
 rename cp35 pgr
 rename cp36 pkilo
+rename cp37 pfv18
 rename CHHNR HHNR
 
-save process\scripts2\meta\cp.dta, replace
+saveold temp\cp.dta, replace
 
-append using process\scripts2\meta\ap.dta process\scripts2\meta\bp.dta
+append using temp\ap.dta temp\bp.dta
 
 sort HHNR PERSNR wave
 
-save process\output2\pl.dta, replace
+saveold long\pl.dta, replace
 
