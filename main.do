@@ -1,31 +1,26 @@
 clear
 version 13
 
+* Rohdaten in dist/input kopieren
 
-// raw - Aufwuchssample B + Fehler in Rohdaten eingebaut
+local filelist: dir raw files "*"
+foreach file of local filelist {
+	copy raw/`file' dist/input/, replace
+}
 
-*do raw_script\sample_b.do
-*do raw_script\hid_mistakes.do
+* main.do für Ordner ./dist/ ausführen
 
-STOP
-
-// dist - Fixnamen in SOEP-Namen ändern + Generierungen + Gewichte
-
-do dist_script\ah-bh-ch.do
-do dist_script\ap-bp-cp.do
-do dist_script\al-bl-cl.do
-do dist_script\hgen.do
-do dist_script\pgen.do 
-do dist_script\pweight.do
-do dist_script\hweight.do
+do dist/main.do
 
 
-STOP
+* Daten aus dist/output in long/input kopieren
 
-// long - Long-Datensatz
+local filelist: dir "dist/output" files "*"
+foreach file of local filelist {
+	copy dist/output/`file' long/input/, replace
+}
 
-do long_script\hl.do
-do long_script\pl.do
+do long/main.do
 
 
 
