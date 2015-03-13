@@ -1,4 +1,4 @@
-/input
-/temp
-/output
+input/*.dta
+temp/*.dta
+output/*.dta
 /scripts/label_check
