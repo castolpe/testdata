@@ -3,7 +3,7 @@ version 13
 
 *** create h-long-data
 
-do long/pathway.do
+do ../pathway.do
 
 use $input/ah.dta
 

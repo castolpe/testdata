@@ -1,8 +1,8 @@
 clear
 version 13
 
-do dist/pathway.do
-// Fixnamen in SOEP-Namen umbenennen
+do ../pathway.do
+// Rename Variables (Fixnames -> SOEP standard)
 
 use $input/ah-raw.dta
 

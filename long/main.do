@@ -1,7 +1,7 @@
 clear
 version 13
 
-* Main.do für Ordner ./long/
+* Main.do ./long/
 
-do long/scripts/hl.do
-do long/scripts/pl.do
+do scripts/hl.do
+do scripts/pl.do

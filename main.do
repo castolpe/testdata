@@ -1,26 +1,32 @@
 clear
 version 13
 
-* Rohdaten in dist/input kopieren
+* Copy raw data to ./dist/input
 
 local filelist: dir raw files "*"
 foreach file of local filelist {
 	copy raw/`file' dist/input/, replace
 }
 
-* main.do für Ordner ./dist/ ausführen
+*  Run main.do for ./dist/ dirctory 
 
-do dist/main.do
+cd ./dist 
+do main.do
 
 
-* Daten aus dist/output in long/input kopieren
+* Copy data from ./dist/output to ./long/input
+
+cd ..
 
 local filelist: dir "dist/output" files "*"
 foreach file of local filelist {
 	copy dist/output/`file' long/input/, replace
 }
 
-do long/main.do
+* Run main.do for ./long/ directory
+
+cd ./long
+do main.do
 
 
 

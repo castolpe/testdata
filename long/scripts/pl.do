@@ -1,6 +1,7 @@
 clear
 version 13 
-do long/pathway.do
+
+do ../pathway.do
 
 *** create p-long-data
 
